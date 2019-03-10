@@ -1,4 +1,5 @@
 \documentclass[conference,compsoc]{IEEEtran}
+
 % Some/most Computer Society conferences require the compsoc mode option,
 % but others may want the standard conference format.
 %
@@ -355,25 +356,14 @@ The abstract goes here.
 
 
 
-\section{Introduction}
-% no \IEEEPARstart
-This demo file is intended to serve as a ``starter file''
-for IEEE Computer Society conference papers produced under \LaTeX\ using
-IEEEtran.cls version 1.8b and later.
-% You must have at least 2 lines in the paragraph with the drop letter
-% (should never be an issue)
-I wish you the best of success.
+\section{Einleitung}
+Menschen besitzen die Fähigkeit aus einem Gespräch den Kontext einer Situation oder Handlung zu verstehen. Dadurch erhöht sich der Informationsgehalt enorm. Computer sind dagegen nicht ohne Weiteres in der Lage aus einer Interaktion mit einem Menschen den Kontext zu extrahieren und zu nutzen. Um trotzdem basierend auf dem Kontext arbeiten zu können, muss eine Anwendung andere Informationsquellen bemühen. Dabei kann der Kontext als jede Information definiert werden, die verwendet werden kann, um die Situation einer Entität zu beschreiben. Eine Entität kann ein Ort, eine Person oder ein Objekt sein, das relevant für die Anwendung ist. Dies schließt Benutzer und die Anwendung selbst ein~\cite{dey2001understanding}. Nutzt eine Anwendung den Kontext bei der Durchführung ihrer Arbeit, ist sie demnach Kontext-sensitiv.
+Eine Service-Choreographie ist eine globale Beschreibung der teilnehmenden Services, die durch den Austausch von Nachrichten, Interaktionsregeln und Vereinbarungen zwischen zwei oder mehr Endpunkten definiert wird. Eine Choreographie verwendet einen dezentralisierten Ansatz für die Zusammenstellung von Dienstleistungen. Das bedeutet, dass die Services sich untereinander selbst organisieren. Eine Choreographie beschreibt im Gegensatz zur Orchestrierung die Interaktionen zwischen mehreren dezentralen Diensten. Wohingegen die Orchestrierung einen zentralen Dienst hat, von dem andere Services aufgerufen werden. Dabei wird das Zusammenspiel aller teilnehmenden Services vom zentralen Service gesteuert.
 
-\hfill mds
- 
-\hfill August 26, 2015
+Da sich eine Infrastruktur ähnlich wie Businessentscheidungen ändern können, muss sich die Choreographie daran anpassen. Dies trifft auf funktionale Anforderungen wie auf einen zusätzlichen Service, sowie auf nicht-funktionale Anforderungen, wie Änderungen am Service-Level-agreement, zu \cite{leite2013systematic}. Je nach Anforderung ist außerdem eine manuelle oder automatische Anpassung nötig. Insbesondere bei automatischen Anpassungen muss das System selbstständig entscheiden, was diese Anpassung im Detail erreichen soll und wie diese durchgeführt wird. Wird dazu der Kontext der Services herangezogen, ergibt sich eine Kontext-sensitive Choreographieanpassung.
 
-\subsection{Subsection Heading Here}
-Subsection text here.
+Ziel der Arbeit ist die Identifizierung und Analyse des Stands der Technik in der kontextsensitiven Choreographie Anpassung. Die Identifizierung der relevanten Literatur erfolgt durch eine systematische Literaturrecherche~\cite{budgen2006performing,kitchenham2009systematic}. Im Gegensatz zum üblichen Prozess der Literaturrecherche verringert die systematische Literaturrecherche die Verzerrung und folgt einer genauen und strengen Abfolge von methodischen Schritten, die sich auf ein genau definiertes Protokoll stützen.
 
-
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
 
 
 % An example of a floating figure using the graphicx package.
@@ -473,27 +463,63 @@ Subsubsection text here.
 
 
 
-\section{Conclusion}
-The conclusion goes here.
+\section{Forschungsmethode}
+Systematic lierature review.
+
+Budgen\cite{budgen2006performing}
+
+Dybaa\cite{dybaa2008empirical}
+
+Kitchenham\cite{kitchenham2009systematic}
+\subsection{Forschungsfrage}
+Welche Frage stellen wir?
+
+Z.B Welche Strategie wählte die ausgewählte Studie für Context Aware Choreography Adaptation? 
+
+\subsection{Datenquellen}
+Wo holen wir die Paper her?\\
+Z.B  IEEE Xplore, ACM Digital Library, CiteSeerX, SciVerse Scopus, SpringerLink..
+
+\subsection{Abfragezeichenfolge}
+Wie haben wir gesucht?
+\subsection{Einschluss und Ausschluss Kriterien}
+
+\subsection{Datenextrahierung}
+
+\subsection{Protokol Evaluierung}
+Braucht man nach Kitchenham
+
+\section{Charakterisierung der ausgewählten Studien}
+Hier kommen allgemeine Sachen über die gefundenen Paper hin. Siehe SLR von Leite\cite{leite2013systematic}.
+
+Von welcher Datenquelle kommen wieviele Paper?
+
+Wie wurden die Paper veröffentlicht?
+
+In welchen Jahren wurden sie veröffentlicht?
+
+In welche Kategorie kann man die Paper einordnen?
+\section{Context-Aware Choreography Adaptation Stategien}
+
+\section{Diskussion}
+
+\section{Verwandte Arbeiten}
+
+\section{Zusammenfassung}
 
 
 
-
-% conference papers do not normally have an appendix
-
-
-
-% use section* for acknowledgment
-\ifCLASSOPTIONcompsoc
-  % The Computer Society usually uses the plural form
-  \section*{Acknowledgments}
-\else
-  % regular IEEE prefers the singular form
-  \section*{Acknowledgment}
-\fi
-
-
-The authors would like to thank...
+%% use section* for acknowledgment
+%\ifCLASSOPTIONcompsoc
+%  % The Computer Society usually uses the plural form
+%  \section*{Acknowledgments}
+%\else
+%  % regular IEEE prefers the singular form
+%  \section*{Acknowledgment}
+%\fi
+%
+%
+%The authors would like to thank...
 
 
 
@@ -519,13 +545,11 @@ The authors would like to thank...
 %\bibliography{IEEEabrv,../Bibliography/IEEEfull}
 %
 % <OR> manually copy in the resultant .bbl file
-\begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
 
-\end{thebibliography}
+\bibliographystyle{Bibliography/IEEEtran}
+\bibliography{Bibliography/IEEEabrv,Bibliography/bibliography}
+
 
 
 
