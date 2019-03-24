@@ -1,0 +1,18 @@
+Gruppe 1:
+- Context-aware computing
+	Context-awareness/Context awareness
+	Context-aware/Context aware
+	Context
+- Situation-aware computing
+	Situation-awareness/Situation awareness
+	Situation-aware/Situation aware
+	Situation
+- Context adaption
+- Situation adaption
+- Computing adaption
+
+Gruppe 2: (vgl. auch Leite2013)
+- Choreography
+- Decentralized composition
+- Decentralized service composition
+- Distributed composition
