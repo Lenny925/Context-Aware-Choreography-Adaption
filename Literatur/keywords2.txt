@@ -1,0 +1,25 @@
+("context-aware" OR
+("context aware" OR
+"context-sensitive" OR
+"contextsensitive" OR
+"context-specific" OR
+"context specific" OR
+"context-dependent" OR
+"context dependent"
+ )
+AND (ab hier vgl Leite)
+( "choreography" OR
+"decentralized composition" OR
+"decentralized service composition" OR
+"distributed composition" OR
+"distributed service composition" OR
+decentralized interacting services" OR
+)\\
+AND\\
+( custom* OR
+adapt* OR
+reconfig* OR
+self-config* OR
+auto-config* OR
+"self-healing"
+)
