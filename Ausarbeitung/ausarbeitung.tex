@@ -273,6 +273,8 @@
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
 
+% URL benutzen
+\usepackage{hyperref}
 
 \begin{document}
 %
@@ -474,23 +476,89 @@ Kitchenham\cite{kitchenham2009systematic}
 \subsection{Forschungsfrage}
 Welche Frage stellen wir?
 
-Z.B Welche Strategie wählte die ausgewählte Studie für Context Aware Choreography Adaptation? 
+Folgende Fragen sind an Leite~\cite{leite2013systematic} orientiert:
+
+\textbf{RQ1}: Welche Strategie wählte die ausgewählte Studie für Context Aware Choreography Adaptation? 
+
+\textbf{RQ2}: Wie wählt eine ausgewählte Studie ihre Adaptionsstrategie gemäß den folgenden Aspekten aus?
+
+(i) \textit{Ziel}: Unterstützt die Anpassung funktionale oder nicht funktionale Anforderungen?
+
+(ii) \textit{Erforderlicher Eingriffsgrad}: Wird die Anpassung automatisch durchgeführt? Oder ist menschliches Eingreifen notwendig?
+
+(iii) \textit{Kontextsensitivität}: Welchen Kontext bezieht die Choreography Adaption Strategie in ihre Entscheidungsfindung mit ein? Wie stark wird die Entscheidungsfindung durch den Kontext beeinflusst?
+
+(iv) \textit{Auswirkungen auf die Skalierbarkeit}: Ist die Strategie für die Skalierbarkeit der Choreographie diskutiert? Ist eine solche Diskussion informell oder enthält sie formale Beweise / Experimente?
+
+(v) \textit{Implementierungen}: Wird der vorgestellte Ansatz von einem Tool oder Prototyp implementiert? Ist die Implementierung des Systems verfügbar? Wenn ja, ist es Open-Source-Software?
+
+(vi) \textit{Zugrundeliegende Modelle}: Welche Choreography Modelle oder Standards werden in der Stategie verwendet?
+
+\textbf{RQ3}: Was sind die Hauptlimitationen und offene Forschungsfragen der Ansätze von "Context-aware choreography adaption"
 
 \subsection{Datenquellen}
 Wo holen wir die Paper her?\\
-Z.B  IEEE Xplore, ACM Digital Library, CiteSeerX, SciVerse Scopus, SpringerLink..
+
+Um die Reproduzierbarkeit des durchgeführten systemantischen Literatur Reviews, wurde der Suchprozess durch Skripte automatisiert. Die Datenquellen wurden mit einem benutzerdefinierten Python Skript durchsucht. Dazu wurden die folgenden wissenschaftlichen Quellen mit einer definierten Zeichenabfolge durchsucht: IEEE Xplore\footnote{\url{https://ieeexplore.ieee.org/Xplore/home.jsp}}, ACM Digital Library\footnote{\url{https://dl.acm.org/}}, SpringerLink\footnote{\url{https://link.springer.com/}} and Google Scholar\footnote{\url{https://scholar.google.de/}}. (CiteSeerX\footnote{\url{https://citeseerx.ist.psu.edu/index}})
 
 \subsection{Abfragezeichenfolge}
 Wie haben wir gesucht?
+
+Such Query ist an der Such Query der SLR von Leite~\cite{leite2013systematic} orientiert und wird durch Suchwörter zu Context Aware erweitert.
+
+("context-aware" OR\\
+("context aware" OR\\
+"context-sensitive" OR\\
+"contextsensitive" OR\\
+"context-specific" OR\\
+"context specific" OR\\
+"context-dependent" OR\\
+"context dependent"
+ )\\
+AND\\
+( "choreography" OR\\
+"decentralized composition" OR\\
+"decentralized service composition" OR\\
+"distributed composition" OR\\
+"distributed service composition" OR\\
+decentralized interacting services" OR\\
+)\\
+AND\\
+( custom* OR\\
+adapt* OR\\
+reconfig* OR\\
+self-config* OR\\
+auto-config* OR\\
+"self-healing"\\
+)
 \subsection{Einschluss und Ausschluss Kriterien}
+Alle Paper einbeziehen da es noch keine vergleichbare SLR gibt
 
 \subsection{Datenextrahierung}
+Wie wurden die Daten extrahiert?
+Welche Metadaten wurden gesammelt?
 
-\subsection{Protokol Evaluierung}
+Metadaten: 
+
+\begin{itemize}
+	\item Titel
+	\item Author(en)
+	\item Veröffentlichungsjahr
+	\item Papertyp
+	\item Link zum Ergebnis
+	\item Link zum PDF
+	\item Zugehörige Suchanfrage
+	\item Datenquelle
+	\item Zahl der Zitationen
+	\item Digitale Objekt ID (DOI) des Ergebnisses
+\end{itemize}
+
+
+\subsection{Protokol Evaluierung und Limitierungen}
 Braucht man nach Kitchenham
 
 \section{Charakterisierung der ausgewählten Studien}
-Hier kommen allgemeine Sachen über die gefundenen Paper hin. Siehe SLR von Leite\cite{leite2013systematic}.
+Hier kommen allgemeine Sachen über die gefundenen Paper hin. Dies gibt eine Übersicht über die gefundenen Paper. Siehe SLR von Leite\cite{leite2013systematic}.
 
 Von welcher Datenquelle kommen wieviele Paper?
 
@@ -499,7 +567,22 @@ Wie wurden die Paper veröffentlicht?
 In welchen Jahren wurden sie veröffentlicht?
 
 In welche Kategorie kann man die Paper einordnen?
+
 \section{Context-Aware Choreography Adaptation Stategien}
+Dieser Abschnitt präsentiert die synthetisierte Daten, um die Forschungsfragen zu beantworten. Zunächst wird ein Überblick über  kontextsensitive Choreographie-Adaptionsstrategien gezeigt, die \textbf{RQ1} beantworten. Anschließend werden die Ergebnisse über die kontextsensitive Adaptionsstrategie zusammengefasst, was \textbf{RQ2} beantwortet. Am Ende wird \textbf{RQ3} beantwortet und die Hauptlimitationen und offenen Forschungsfragen aufgezeigt.
+Die ausgewählten Studien wie bei Leite~\cite{leite2013systematic} nach ihrem Fokus in Kategorien gruppiert: modellbasierte Ansätze, messungsbasierte Ansätze, Multiagenten basierte Ansätze, formale Methoden basierte Ansätze, semantisches Denken basierte Ansätze und Proxylayer basierte Ansätze.
+
+\subsection{Modellbasierte Ansätze}
+
+\subsection{Messungsbasierte Ansätze}
+
+\subsection{Multiagenten basierte Ansätze}
+
+\subsection{Formale Methoden basierte Ansätze}
+
+\subsection{Semantisches Denken basierte Ansätze}
+
+\subsection{Proxylayer basierte Ansätze}
 
 \section{Diskussion}
 
