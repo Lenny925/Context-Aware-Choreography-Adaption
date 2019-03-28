@@ -3,16 +3,32 @@ Gruppe 1:
 	Context-awareness/Context awareness
 	Context-aware/Context aware
 	Context
+- Context-specific computing
+	Context-specific/Context specific 
+- Context-dependent computing
+	Context-dependent/Context dependent
+- Context-sensitive computing
+	Context-sensitive/Context sensitive
 - Situation-aware computing
 	Situation-awareness/Situation awareness
 	Situation-aware/Situation aware
 	Situation
-- Context adaption
-- Situation adaption
-- Computing adaption
+- Location
+- Situational
+- Environment
+- Identity
+- Behaviour
 
 Gruppe 2: (vgl. auch Leite2013)
 - Choreography
 - Decentralized composition
 - Decentralized service composition
 - Distributed composition
+
+Gruppe 3:
+- Adapt*
+- Self-config*
+- Auto-config*
+- Reconfig*
+- Sensitiv
+- Behaviour
