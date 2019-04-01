@@ -483,6 +483,8 @@ Folgende Fragen sind an Leite~\cite{leite2013systematic} orientiert:
 \textbf{RQ2}: Wie wählt eine ausgewählte Studie ihre Adaptionsstrategie gemäß den folgenden Aspekten aus?
 
 (i) \textit{Ziel}: Unterstützt die Anpassung funktionale oder nicht funktionale Anforderungen?
+%Funktional beschreiben gewünschte Funktionalitäten
+% Nichtfunktionale Sind Anforderungen an die Qualität welche die geforderte Funktionalität erbringen muss
 
 (ii) \textit{Erforderlicher Eingriffsgrad}: Wird die Anpassung automatisch durchgeführt? Oder ist menschliches Eingreifen notwendig?
 
@@ -495,19 +497,75 @@ Folgende Fragen sind an Leite~\cite{leite2013systematic} orientiert:
 (vi) \textit{Zugrundeliegende Modelle}: Welche Choreography Modelle oder Standards werden in der Stategie verwendet?
 
 \textbf{RQ3}: Was sind die Hauptlimitationen und offene Forschungsfragen der Ansätze von "Context-aware choreography adaption"
+\newpage
+
+Alternative Fragen:
+
+(i) Gibt es ein System, dass auf Situationen reagiert ohne Einfluss eines Menschen?
+
+(ii) Was sind die Vor- und Nachteile eines adaptiven Systems
+
+(iii) Welche Methoden gibt es, um ein System vom Kontext abhängig zu machen?
+
+(iv) Welche Grenzen werden einem Situationsabhängigen System gegeben?
+
 
 \subsection{Datenquellen}
 Wo holen wir die Paper her?\\
 
 Um die Reproduzierbarkeit des durchgeführten systemantischen Literatur Reviews, wurde der Suchprozess durch Skripte automatisiert. Die Datenquellen wurden mit einem benutzerdefinierten Python Skript durchsucht. Dazu wurden die folgenden wissenschaftlichen Quellen mit einer definierten Zeichenabfolge durchsucht: IEEE Xplore\footnote{\url{https://ieeexplore.ieee.org/Xplore/home.jsp}}, ACM Digital Library\footnote{\url{https://dl.acm.org/}}, SpringerLink\footnote{\url{https://link.springer.com/}} and Google Scholar\footnote{\url{https://scholar.google.de/}}. (CiteSeerX\footnote{\url{https://citeseerx.ist.psu.edu/index}})
 
+\newpage
 \subsection{Abfragezeichenfolge}
 Wie haben wir gesucht?
 
+
+Unsere gemergte Query aus allen Vorschlägen
+
+
+(\\
+- Context-aware computing\\
+	Context-awareness/Context awareness\\
+	Context-aware/Context aware\\
+	Context OR\\
+- Context-specific computing\\
+	Context-specific/Context specific OR\\
+- Context-dependent computing\\
+	Context-dependent/Context dependent OR\\
+- Context-sensitive computing\\
+	Context-sensitive/Context sensitive OR\\
+- Situation-aware computing\\
+	Situation-awareness/Situation awareness\\
+	Situation-aware/Situation aware\\
+	Situation OR\\
+"location" OR\\
+"situational" OR\\
+"environment" OR\\
+("identity) OR\\
+("behaviour") \\
+)\\
+ab hier vgl. auch Leite2013) \\
+ (\\
+ "choreography" OR\\
+"decentralized composition" OR\\
+"decentralized service composition" OR\\
+"distributed composition" OR\\
+) AND\\
+(
+adapt* OR\\
+self-config* OR\\
+auto-config* OR\\
+reconfig* OR\\
+"sensitiv" OR\\
+"behaviour" OR\\
+)\\
+
+\newpage
 Such Query ist an der Such Query der SLR von Leite~\cite{leite2013systematic} orientiert und wird durch Suchwörter zu Context Aware erweitert.
 
-("context-aware" OR\\
-("context aware" OR\\
+(\\
+"context-aware" OR\\
+"context aware" OR\\
 "context-sensitive" OR\\
 "contextsensitive" OR\\
 "context-specific" OR\\
