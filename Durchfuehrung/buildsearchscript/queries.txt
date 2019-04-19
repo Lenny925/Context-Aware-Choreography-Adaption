@@ -22,54 +22,6 @@ context-aware AND distributed composition AND auto-config*
 context-aware AND distributed composition AND reconfig*
 context-aware AND distributed composition AND sensitiv
 context-aware AND distributed composition AND behaviour
-context aware AND choreography AND adapt*
-context aware AND choreography AND self-config*
-context aware AND choreography AND auto-config*
-context aware AND choreography AND reconfig*
-context aware AND choreography AND sensitiv
-context aware AND choreography AND behaviour
-context aware AND decentralized composition AND adapt*
-context aware AND decentralized composition AND self-config*
-context aware AND decentralized composition AND auto-config*
-context aware AND decentralized composition AND reconfig*
-context aware AND decentralized composition AND sensitiv
-context aware AND decentralized composition AND behaviour
-context aware AND decentralized service composition AND adapt*
-context aware AND decentralized service composition AND self-config*
-context aware AND decentralized service composition AND auto-config*
-context aware AND decentralized service composition AND reconfig*
-context aware AND decentralized service composition AND sensitiv
-context aware AND decentralized service composition AND behaviour
-context aware AND distributed composition AND adapt*
-context aware AND distributed composition AND self-config*
-context aware AND distributed composition AND auto-config*
-context aware AND distributed composition AND reconfig*
-context aware AND distributed composition AND sensitiv
-context aware AND distributed composition AND behaviour
-context specific AND choreography AND adapt*
-context specific AND choreography AND self-config*
-context specific AND choreography AND auto-config*
-context specific AND choreography AND reconfig*
-context specific AND choreography AND sensitiv
-context specific AND choreography AND behaviour
-context specific AND decentralized composition AND adapt*
-context specific AND decentralized composition AND self-config*
-context specific AND decentralized composition AND auto-config*
-context specific AND decentralized composition AND reconfig*
-context specific AND decentralized composition AND sensitiv
-context specific AND decentralized composition AND behaviour
-context specific AND decentralized service composition AND adapt*
-context specific AND decentralized service composition AND self-config*
-context specific AND decentralized service composition AND auto-config*
-context specific AND decentralized service composition AND reconfig*
-context specific AND decentralized service composition AND sensitiv
-context specific AND decentralized service composition AND behaviour
-context specific AND distributed composition AND adapt*
-context specific AND distributed composition AND self-config*
-context specific AND distributed composition AND auto-config*
-context specific AND distributed composition AND reconfig*
-context specific AND distributed composition AND sensitiv
-context specific AND distributed composition AND behaviour
 context-specific AND choreography AND adapt*
 context-specific AND choreography AND self-config*
 context-specific AND choreography AND auto-config*
@@ -118,30 +70,6 @@ context-dependent AND distributed composition AND auto-config*
 context-dependent AND distributed composition AND reconfig*
 context-dependent AND distributed composition AND sensitiv
 context-dependent AND distributed composition AND behaviour
-context dependent AND choreography AND adapt*
-context dependent AND choreography AND self-config*
-context dependent AND choreography AND auto-config*
-context dependent AND choreography AND reconfig*
-context dependent AND choreography AND sensitiv
-context dependent AND choreography AND behaviour
-context dependent AND decentralized composition AND adapt*
-context dependent AND decentralized composition AND self-config*
-context dependent AND decentralized composition AND auto-config*
-context dependent AND decentralized composition AND reconfig*
-context dependent AND decentralized composition AND sensitiv
-context dependent AND decentralized composition AND behaviour
-context dependent AND decentralized service composition AND adapt*
-context dependent AND decentralized service composition AND self-config*
-context dependent AND decentralized service composition AND auto-config*
-context dependent AND decentralized service composition AND reconfig*
-context dependent AND decentralized service composition AND sensitiv
-context dependent AND decentralized service composition AND behaviour
-context dependent AND distributed composition AND adapt*
-context dependent AND distributed composition AND self-config*
-context dependent AND distributed composition AND auto-config*
-context dependent AND distributed composition AND reconfig*
-context dependent AND distributed composition AND sensitiv
-context dependent AND distributed composition AND behaviour
 context-sensitive AND choreography AND adapt*
 context-sensitive AND choreography AND self-config*
 context-sensitive AND choreography AND auto-config*
@@ -166,54 +94,6 @@ context-sensitive AND distributed composition AND auto-config*
 context-sensitive AND distributed composition AND reconfig*
 context-sensitive AND distributed composition AND sensitiv
 context-sensitive AND distributed composition AND behaviour
-context sensitive AND choreography AND adapt*
-context sensitive AND choreography AND self-config*
-context sensitive AND choreography AND auto-config*
-context sensitive AND choreography AND reconfig*
-context sensitive AND choreography AND sensitiv
-context sensitive AND choreography AND behaviour
-context sensitive AND decentralized composition AND adapt*
-context sensitive AND decentralized composition AND self-config*
-context sensitive AND decentralized composition AND auto-config*
-context sensitive AND decentralized composition AND reconfig*
-context sensitive AND decentralized composition AND sensitiv
-context sensitive AND decentralized composition AND behaviour
-context sensitive AND decentralized service composition AND adapt*
-context sensitive AND decentralized service composition AND self-config*
-context sensitive AND decentralized service composition AND auto-config*
-context sensitive AND decentralized service composition AND reconfig*
-context sensitive AND decentralized service composition AND sensitiv
-context sensitive AND decentralized service composition AND behaviour
-context sensitive AND distributed composition AND adapt*
-context sensitive AND distributed composition AND self-config*
-context sensitive AND distributed composition AND auto-config*
-context sensitive AND distributed composition AND reconfig*
-context sensitive AND distributed composition AND sensitiv
-context sensitive AND distributed composition AND behaviour
-situation aware AND choreography AND adapt*
-situation aware AND choreography AND self-config*
-situation aware AND choreography AND auto-config*
-situation aware AND choreography AND reconfig*
-situation aware AND choreography AND sensitiv
-situation aware AND choreography AND behaviour
-situation aware AND decentralized composition AND adapt*
-situation aware AND decentralized composition AND self-config*
-situation aware AND decentralized composition AND auto-config*
-situation aware AND decentralized composition AND reconfig*
-situation aware AND decentralized composition AND sensitiv
-situation aware AND decentralized composition AND behaviour
-situation aware AND decentralized service composition AND adapt*
-situation aware AND decentralized service composition AND self-config*
-situation aware AND decentralized service composition AND auto-config*
-situation aware AND decentralized service composition AND reconfig*
-situation aware AND decentralized service composition AND sensitiv
-situation aware AND decentralized service composition AND behaviour
-situation aware AND distributed composition AND adapt*
-situation aware AND distributed composition AND self-config*
-situation aware AND distributed composition AND auto-config*
-situation aware AND distributed composition AND reconfig*
-situation aware AND distributed composition AND sensitiv
-situation aware AND distributed composition AND behaviour
 situation-aware AND choreography AND adapt*
 situation-aware AND choreography AND self-config*
 situation-aware AND choreography AND auto-config*

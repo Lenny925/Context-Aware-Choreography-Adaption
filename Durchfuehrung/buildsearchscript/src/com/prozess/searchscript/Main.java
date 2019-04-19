@@ -36,19 +36,19 @@ public class Main {
     public static List<String> getFirstBlock() {
         ArrayList<String> strings = new ArrayList<>();
         strings.add("context-aware");
-        strings.add("context aware");
+        //strings.add("context aware");
 
-        strings.add("context specific");
         strings.add("context-specific");
+        //strings.add("context specific");
 
         strings.add("context-dependent");
-        strings.add("context dependent");
+        //strings.add("context dependent");
 
         strings.add("context-sensitive");
-        strings.add("context sensitive");
+        //strings.add("context sensitive");
 
-        strings.add("situation aware");
         strings.add("situation-aware");
+        //strings.add("situation aware");
         return strings;
     }
 

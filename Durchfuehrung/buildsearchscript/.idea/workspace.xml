@@ -3,6 +3,61 @@
   <component name="ChangeListManager">
     <list default="true" id="3cd62819-cd22-4cc7-90c9-7df4f9c42963" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Ausarbeitung/ausarbeitung.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ausarbeitung/ausarbeitung.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/queries.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/prozess/searchscript/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/prozess/searchscript/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/queries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../search-script/queries.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Disconnection+handling+AND+mobile+transactions_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Disconnection+handling+AND+mobility_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Disconnection+management+AND+(mobile+environments+OR+mobile+systems+OR+mobile+transactions)_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Embedded+systems+AND+disconnection+AND+(management+OR+handling)_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Embedded+systems+AND+mobile+transactions_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Mobile+transaction+models_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Mobile+transaction+protocols_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Mobile+transactions+AND+(BASE+OR+ACID)_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Mobile+transactions+AND+(atomicity+OR+consistency+OR+isolation+OR+durability)_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Mobile+transactions+AND+CAP+theorem_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Mobile+transactions+AND+Embedded_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Mobile+transactions+AND+IoT_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Mobile+transactions+AND+compensation_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Mobile+transactions+AND+consistency_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Movement+management+AND+transactions_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Resilient+connectivity+AND+mobile+transactions_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/Resilient+connectivity+AND+mobility_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/compensation+AND+(mobile+environments+OR+mobile+systems+OR+mobile+transactions)_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/mobile+AND+cloud+computing+AND+transactions_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/mobile+transaction+AND+execution_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/movement+AND+compensation+AND+(IoT+OR+Embedded+OR+mobile)_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/portable+device+AND+transaction+AND+mobile_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/seamless+connectivity+AND+mobile_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/IEEEXplore/wireless+data+networks+AND+disconnection+AND+(management+OR+handling)_IEEEXplore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Disconnection+handling+AND+mobile+transactions_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Disconnection+handling+AND+mobility_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Disconnection+management+AND+(mobile+environments+OR+mobile+systems+OR+mobile+transactions)_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Embedded+systems+AND+disconnection+AND+(management+OR+handling)_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Embedded+systems+AND+mobile+transactions_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Mobile+transaction+models_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Mobile+transaction+protocols_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Mobile+transactions+AND+(BASE+OR+ACID)_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Mobile+transactions+AND+(atomicity+OR+consistency+OR+isolation+OR+durability)_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Mobile+transactions+AND+CAP+theorem_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Mobile+transactions+AND+Embedded_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Mobile+transactions+AND+IoT_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Mobile+transactions+AND+compensation_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Mobile+transactions+AND+consistency_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Movement+management+AND+transactions_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Resilient+connectivity+AND+mobile+transactions_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/Resilient+connectivity+AND+mobility_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/compensation+AND+(mobile+environments+OR+mobile+systems+OR+mobile+transactions)_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/mobile+AND+cloud+computing+AND+transactions_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/mobile+transaction+AND+execution_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/movement+AND+compensation+AND+(IoT+OR+Embedded+OR+mobile)_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/portable+device+AND+transaction+AND+mobile_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/seamless+connectivity+AND+mobile_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/results2/SpringerLink/wireless+data+networks+AND+disconnection+AND+(management+OR+handling)_SpringerLink.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/src/crawler/springer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../search-script/src/crawler/springer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/src/input_output/csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../search-script/src/input_output/csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/src/input_output/super_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../search-script/src/input_output/super_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search-script/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../search-script/src/main.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/prozess/searchscript/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+            <state relative-caret-position="336">
+              <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,15 +111,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../winery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,48 +161,49 @@
       <option name="presentableId" value="Default" />
       <updated>1555605803075</updated>
       <workItem from="1555605811665" duration="131000" />
+      <workItem from="1555667990270" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131000" />
+    <option name="totallyTimeSpent" value="878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Tool Output" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="ANTLR Preview" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Tool Output" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,8 +212,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/prozess/searchscript/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        <state relative-caret-position="336">
+          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
