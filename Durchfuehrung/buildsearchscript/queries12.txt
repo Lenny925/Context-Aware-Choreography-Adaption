@@ -1,0 +1,20 @@
+context-aware AND choreography
+context-aware AND decentralized composition
+context-aware AND decentralized service composition
+context-aware AND distributed composition
+context-specific AND choreography
+context-specific AND decentralized composition
+context-specific AND decentralized service composition
+context-specific AND distributed composition
+context-dependent AND choreography
+context-dependent AND decentralized composition
+context-dependent AND decentralized service composition
+context-dependent AND distributed composition
+context-sensitive AND choreography
+context-sensitive AND decentralized composition
+context-sensitive AND decentralized service composition
+context-sensitive AND distributed composition
+situation-aware AND choreography
+situation-aware AND decentralized composition
+situation-aware AND decentralized service composition
+situation-aware AND distributed composition
