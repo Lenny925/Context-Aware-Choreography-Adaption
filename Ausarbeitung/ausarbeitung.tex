@@ -511,23 +511,19 @@ Alternative Fragen:
 
 
 \subsection{Datenquellen}
-Wo holen wir die Paper her?\\
+Um die Reproduzierbarkeit des durchgeführten systemantischen Literatur Reviews, wurde der Suchprozess durch Skripte automatisiert. Die Datenquellen wurden mit einem benutzerdefinierten Python Skript durchsucht. Dazu wurden die folgenden wissenschaftlichen Quellen mit einer definierten Zeichenabfolge durchsucht: IEEE Xplore\footnote{\url{https://ieeexplore.ieee.org/Xplore/home.jsp}} SpringerLink\footnote{\url{https://link.springer.com/}} und Google Scholar\footnote{\url{https://scholar.google.de/}}
 
-Um die Reproduzierbarkeit des durchgeführten systemantischen Literatur Reviews, wurde der Suchprozess durch Skripte automatisiert. Die Datenquellen wurden mit einem benutzerdefinierten Python Skript durchsucht. Dazu wurden die folgenden wissenschaftlichen Quellen mit einer definierten Zeichenabfolge durchsucht: IEEE Xplore\footnote{\url{https://ieeexplore.ieee.org/Xplore/home.jsp}}, ACM Digital Library\footnote{\url{https://dl.acm.org/}}, SpringerLink\footnote{\url{https://link.springer.com/}} and Google Scholar\footnote{\url{https://scholar.google.de/}}. (CiteSeerX\footnote{\url{https://citeseerx.ist.psu.edu/index}})
 
-\newpage
 \subsection{Abfragezeichenfolge}
-Wie haben wir gesucht?
+Die Suchen wurden mit Hilfe von Suchanfragen durchgeführt. Dabei wurden Titel und Abstract der Paper durchsucht.
+Die Suchanfragen sind an der Suchanfragen der SLR von Leite~\cite{leite2013systematic} orientiert und wird durch Suchwörter zu Context Aware erweitert.
 
+Aus der Kombination entstanden 3 Suchblöcke. Der erste Block ist für \textit{context-ware}, der zweite für \textit{choreography} und der dritte Block für \textit{adaption}. Die verschiedenen Strings aus einer Gruppe sind mit ODER (OR) verbunden. Die Suchblöcke werden mit UND (AND) verbunden. Dadurch entstehen Anfragen wobei aus jedem Block ein String enthalten sein muss. Daraus wurden sämtliche Möglichkeiten gebildet. 
+Die Suchanfrage ist die folgende: \\
 
-Unsere gemergte Query aus allen Vorschlägen
-
-
-(\\
+(
 - Context-aware computing\\
-	Context-awareness/Context awareness\\
 	Context-aware/Context aware\\
-	Context OR\\
 - Context-specific computing\\
 	Context-specific/Context specific OR\\
 - Context-dependent computing\\
@@ -535,17 +531,13 @@ Unsere gemergte Query aus allen Vorschlägen
 - Context-sensitive computing\\
 	Context-sensitive/Context sensitive OR\\
 - Situation-aware computing\\
-	Situation-awareness/Situation awareness\\
 	Situation-aware/Situation aware\\
-	Situation OR\\
 "location" OR\\
 "situational" OR\\
-"environment" OR\\
-("identity) OR\\
-("behaviour") \\
-)\\
+"environment" OR
+)//
 ab hier vgl. auch Leite2013) \\
- (\\
+ (
  "choreography" OR\\
 "decentralized composition" OR\\
 "decentralized service composition" OR\\
@@ -560,43 +552,40 @@ reconfig* OR\\
 "behaviour" OR\\
 )\\
 
-\newpage
-Such Query ist an der Such Query der SLR von Leite~\cite{leite2013systematic} orientiert und wird durch Suchwörter zu Context Aware erweitert.
-
-(\\
-"context-aware" OR\\
-"context aware" OR\\
-"context-sensitive" OR\\
-"contextsensitive" OR\\
-"context-specific" OR\\
-"context specific" OR\\
-"context-dependent" OR\\
-"context dependent"
- )\\
-AND\\
-( "choreography" OR\\
-"decentralized composition" OR\\
-"decentralized service composition" OR\\
-"distributed composition" OR\\
-"distributed service composition" OR\\
-decentralized interacting services" OR\\
-)\\
-AND\\
-( custom* OR\\
-adapt* OR\\
-reconfig* OR\\
-self-config* OR\\
-auto-config* OR\\
-"self-healing"\\
-)
 \subsection{Einschluss und Ausschluss Kriterien}
-Alle Paper einbeziehen da es noch keine vergleichbare SLR gibt
+Nach Suche waren nach entfernen der Duplikate insgesamt 4435 Ergebnisse vorhanden.
 
+Alle Paper vor 2000 wurden ausgeschlossen. 2000-2010 mindestens 10 Zitationen. 2011 9 Zitationen, 2012 8 Zitationen, 2013 7 Zitationen, 2014 6 Zitationen, 2015 5 Zitationen, 2016 4 Zitationen, 2017 3 Zitationen, 2018 2 Zitationen, 2019 1 Zitationen. Reultat: 2722 Paper
+
+% TODO Hier fehlen Kriterie wie wir entschieden haben ob wir es auswählen oder nicht
+Hier fehlt wie wir entschieden haben ob wir es auswählen oder nicht.
+
+Manuelle Überprüfung wobei Titel und im Zweifelsfalls Abstract gelesen wurde um die Zahl weiter zu reduzieren. Rsulutat: X Paper
+
+Nach lesen sämtlicher Abstracts bleiben X Paper übrig.
+
+\begin{table}[h]
+	\caption{Studienauswahlverfahren}
+\begin{tabular}{p{1cm}|p{6.5cm}}
+
+	Stufe & Beschreibung \\
+	\hline	
+	Stufe 1 & Die Suchanfragen wurden auf allen angegeben Datenquellen angewendet und die Ergebnisse gespeichert.\\
+	
+	Stufe 2 & Duplikate und ungültige Paper wurden ausgeschlosssen.\\
+	
+	Stufe 3 & Die Inklusions- und Exklusionskriterien wurden auf die Titel der Paper und bei Unklarheit auf den Abstract angewendet. \\
+	
+	Stufe 4 & Die Inklusions- und Exklusionskriterien wurden auf Abstract und Zusammenfassung anwendet. \\
+	
+	Stufe 5 & Die Inklusions- und Exklusionskriterien wurden auf den ganzen Text angewendet.
+	
+\end{tabular}
+\end{table}
 \subsection{Datenextrahierung}
-Wie wurden die Daten extrahiert?
-Welche Metadaten wurden gesammelt?
-
-Metadaten: 
+Die Daten wurden mithilfe eines automatisierten Suchskriptes extrahiert.
+Jede der Anfragen wurde einzeln auf jeder der genannten Suchmaschinen ausgeführt. Die Ergebnisse der einzelnen Suchanfragen wurden jeweils in einer CSV-Datei gespeichert.
+Dabei wurden die folgenden Metadaten extrahiert:
 
 \begin{itemize}
 	\item Titel
@@ -611,6 +600,11 @@ Metadaten:
 	\item Digitale Objekt ID (DOI) des Ergebnisses
 \end{itemize}
 
+Die Ergebnisse der einzelnen Suchfragen wurden anschließend in einer einzelnen CSV-Datei zusammengefasst, wobei 9168 Paper als Ergebnis resultieren. Aufgrund der Suchanfragen auf verschiedenen Suchmaschinen sind darin Duplikate enthalten. Die Duplikate wurden deshalb aus den Ergebnissen entfernt.
+
+%TODO Erklären wie Duplikate entfernt wurden
+
+Nach dem entfernen der Duplikate bleiben 4435 Ergebnisse übrig.
 
 \subsection{Protokol Evaluierung und Limitierungen}
 Braucht man nach Kitchenham
@@ -630,21 +624,18 @@ In welche Kategorie kann man die Paper einordnen?
 Dieser Abschnitt präsentiert die synthetisierte Daten, um die Forschungsfragen zu beantworten. Zunächst wird ein Überblick über  kontextsensitive Choreographie-Adaptionsstrategien gezeigt, die \textbf{RQ1} beantworten. Anschließend werden die Ergebnisse über die kontextsensitive Adaptionsstrategie zusammengefasst, was \textbf{RQ2} beantwortet. Am Ende wird \textbf{RQ3} beantwortet und die Hauptlimitationen und offenen Forschungsfragen aufgezeigt.
 Die ausgewählten Studien wie bei Leite~\cite{leite2013systematic} nach ihrem Fokus in Kategorien gruppiert: modellbasierte Ansätze, messungsbasierte Ansätze, Multiagenten basierte Ansätze, formale Methoden basierte Ansätze, semantisches Denken basierte Ansätze und Proxylayer basierte Ansätze.
 
-\subsection{Modellbasierte Ansätze}
+\subsection{Paper 1}
 
-\subsection{Messungsbasierte Ansätze}
+\subsection{Paper 2}
 
-\subsection{Multiagenten basierte Ansätze}
 
-\subsection{Formale Methoden basierte Ansätze}
-
-\subsection{Semantisches Denken basierte Ansätze}
-
-\subsection{Proxylayer basierte Ansätze}
 
 \section{Diskussion}
 
 \section{Verwandte Arbeiten}
+
+Leite \cite{leite2013systematic}\\
+
 
 \section{Zusammenfassung}
 
