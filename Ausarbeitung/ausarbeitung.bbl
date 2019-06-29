@@ -78,4 +78,33 @@ L.~Bastida, F.~J. Nieto, and R.~Tola, ``Context-aware service composition: a
   workshop on Systems development in SOA environments}.\hskip 1em plus 0.5em
   minus 0.4em\relax ACM, 2008, pp. 19--24.
 
+\bibitem{dietze2008towards}
+S.~Dietze, A.~Gugliotta, and J.~Domingue, ``Towards context-aware semantic web
+  service discovery through conceptual situation spaces,'' in \emph{Proceedings
+  of the 2008 international workshop on Context enabled source and service
+  selection, integration and adaptation: organized with the 17th International
+  World Wide Web Conference (WWW 2008)}.\hskip 1em plus 0.5em minus 0.4em\relax
+  ACM, 2008, p.~6.
+
+\bibitem{vukovic2007context}
+M.~Vukovic and P.~Robinson, ``Context aware service composition.'' Ph.D.
+  dissertation, University of Cambridge, UK, 2007.
+
+\bibitem{camara2009behavioural}
+J.~Camara, C.~Canal, and G.~Salaun, ``Behavioural self-adaptation of services
+  in ubiquitous computing environments,'' in \emph{2009 ICSE Workshop on
+  Software Engineering for Adaptive and Self-Managing Systems}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2009, pp. 28--37.
+
+\bibitem{dorn2009context}
+C.~Dorn, D.~Schall, and S.~Dustdar, ``Context-aware adaptive service mashups,''
+  in \emph{2009 IEEE Asia-Pacific Services Computing Conference (APSCC)}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2009, pp. 301--306.
+
+\bibitem{keidl2004towards}
+M.~Keidl and A.~Kemper, ``Towards context-aware adaptable web services,'' in
+  \emph{Proceedings of the 13th international World Wide Web conference on
+  Alternate track papers \& posters}.\hskip 1em plus 0.5em minus 0.4em\relax
+  ACM, 2004, pp. 55--65.
+
 \end{thebibliography}
