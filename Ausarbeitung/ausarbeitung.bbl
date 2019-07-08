@@ -107,4 +107,63 @@ M.~Keidl and A.~Kemper, ``Towards context-aware adaptable web services,'' in
   Alternate track papers \& posters}.\hskip 1em plus 0.5em minus 0.4em\relax
   ACM, 2004, pp. 55--65.
 
+\bibitem{LK10}
+H.~J. La and S.~D. Kim, ``A conceptual framework for provisioning context-aware
+  mobile cloud services,'' in \emph{2010 IEEE 3rd International Conference on
+  Cloud Computing}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2010, pp.
+  466--473.
+
+\bibitem{CZZ15}
+Z.~Cao, X.~Zhang, W.~Zhang, X.~Xie, J.~Shi, and H.~Xu, ``A context-aware
+  adaptive web service composition framework,'' in \emph{2015 IEEE
+  International Conference on Computational Intelligence \& Communication
+  Technology}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 62--66.
+
+\bibitem{MEM13}
+M.~Madkour, D.~El~Ghanami, and A.~Maach, ``Context-aware service adaptation: An
+  approach based on fuzzy sets and service composition,'' in \emph{Journal of
+  Information Science and Engineering}.\hskip 1em plus 0.5em minus 0.4em\relax
+  JISE, 2013, pp. 1--16.
+
+\bibitem{YHS12}
+J.~Yu, J.~Han, Q.~Z. Sheng, and S.~O. Gunarso, ``Percas: An approach to
+  enabling dynamic and personalized adaptation for context-aware services,'' in
+  \emph{International Conference on Service-Oriented Computing}.\hskip 1em plus
+  0.5em minus 0.4em\relax Springer, 2012, pp. 173--190.
+
+\bibitem{AP11}
+G.~H. Alferez and V.~Pelechano, ``Context-aware autonomous web services in
+  software product lines,'' in \emph{2011 15th International Software Product
+  Line Conference}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2011, pp.
+  100--109.
+
+\bibitem{HHP08}
+S.~Hallsteinsen, M.~Hinchey, S.~Park, and K.~Schmid, ``Dynamic software product
+  lines,'' in \emph{Computer}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2008, pp. 93--95.
+
+\bibitem{ZGP11}
+J.~Zhou, E.~Gilman, J.~Palola, J.~Riekki, M.~Ylianttila, and J.~Sun,
+  ``Context-aware pervasive service composition and its implementation,'' in
+  \emph{Personal and Ubiquitous Computing}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2011, pp. 291--303.
+
+\bibitem{RRS10}
+D.~Romero, R.~Rouvoy, L.~Seinturier, S.~Chabridon, D.~Conan, and N.~Pessemier,
+  ``Enabling context-aware web services: A middleware approach for ubiquitous
+  environments,'' in \emph{Enabling Context-Aware Web Services: Methods,
+  Architectures, and Technologies}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Chapman and Hall/CRC, 2010, pp. 113--135.
+
+\bibitem{RCS08}
+R.~Rouvoy, D.~Conan, and L.~Seinturier, ``Software architecture patterns for a
+  context-processing middleware framework,'' in \emph{IEEE Distributed Systems
+  Online}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2008.
+
+\bibitem{SMF09}
+L.~Seinturier, P.~Merle, D.~Fournier, N.~Dolet, V.~Schiavoni, and J.-B.
+  Stefani, ``Reconfigurable sca applications with the frascati platform,'' in
+  \emph{2009 IEEE International Conference on Services Computing}.\hskip 1em
+  plus 0.5em minus 0.4em\relax IEEE, 2009, pp. 268--275.
+
 \end{thebibliography}
