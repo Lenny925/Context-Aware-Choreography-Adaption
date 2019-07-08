@@ -15,7 +15,7 @@ class CSV:
             self._path = ''
 
     def write(self, results: [], file_name: str):
-        with open(self._path + file_name, 'w') as file:
+        with open(self._path + file_name, 'w',encoding = "utf8", newline = '') as file:
             writer = csv.writer(file)
             keys = [key for key, value in vars(Result('', '', '', '', '')).items()]
             writer.writerow(keys)

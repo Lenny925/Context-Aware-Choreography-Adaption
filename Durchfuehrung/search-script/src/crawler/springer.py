@@ -22,8 +22,12 @@ class SpringerLink(Crawler):
         results = []
 
         soup = self._query_page(1, query)
-        pages = int(soup.find('span', {'class': 'number-of-pages'}).get_text().replace(',', ''))
-        results += self._parse_results(soup)
+        try:
+            pages = int(soup.find('span', {'class': 'number-of-pages'}).get_text().replace(',', ''))
+            results += self._parse_results(soup)
+        except AttributeError:
+            pages = 0
+            print("no results")
 
         try:
             for current_page in range(2, pages + 1):
@@ -37,7 +41,7 @@ class SpringerLink(Crawler):
         return results
 
     def _query_page(self, page, query) -> BeautifulSoup:
-        url = self._SPRINGER_URL + f'/search/page/{page}?query={query}'
+        url = self._SPRINGER_URL + f'/search/page/{page}?query={query}&showAll=false&facet-discipline="Computer+Science"' # Endung deaktiviert durchsuchen der Previews
         request = urllib.request.Request(url, None, self._HEADER)
         html = urllib.request.urlopen(request).read()
         return BeautifulSoup(html, 'html.parser')

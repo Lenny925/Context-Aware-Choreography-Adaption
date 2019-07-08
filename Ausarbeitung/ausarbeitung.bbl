@@ -107,6 +107,19 @@ M.~Keidl and A.~Kemper, ``Towards context-aware adaptable web services,'' in
   Alternate track papers \& posters}.\hskip 1em plus 0.5em minus 0.4em\relax
   ACM, 2004, pp. 55--65.
 
+\bibitem{mokhtar2005context}
+S.~B. Mokhtar, D.~Fournier, N.~Georgantas, and V.~Issarny, ``Context-aware
+  service composition in pervasive computing environments,'' in
+  \emph{International Workshop on Rapid Integration of Software Engineering
+  Techniques}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2005, pp.
+  129--144.
+
+\bibitem{luo2006towards}
+N.~Luo, J.~Yan, M.~Liu, and S.~Yang, ``Towards context-aware composition of web
+  services,'' in \emph{2006 Fifth International Conference on Grid and
+  Cooperative Computing (GCC'06)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2006, pp. 494--499.
+
 \bibitem{LK10}
 H.~J. La and S.~D. Kim, ``A conceptual framework for provisioning context-aware
   mobile cloud services,'' in \emph{2010 IEEE 3rd International Conference on
@@ -163,7 +176,7 @@ R.~Rouvoy, D.~Conan, and L.~Seinturier, ``Software architecture patterns for a
 \bibitem{SMF09}
 L.~Seinturier, P.~Merle, D.~Fournier, N.~Dolet, V.~Schiavoni, and J.-B.
   Stefani, ``Reconfigurable sca applications with the frascati platform,'' in
-  \emph{2009 IEEE International Conference on Services Computing}.\hskip 1em
-  plus 0.5em minus 0.4em\relax IEEE, 2009, pp. 268--275.
+  \emph{2009 IEEE International Conference on Services Computing}, 2009, pp.
+  268--275.
 
 \end{thebibliography}
