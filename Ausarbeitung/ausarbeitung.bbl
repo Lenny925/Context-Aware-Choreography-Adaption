@@ -43,6 +43,17 @@ B.~Kitchenham, O.~P. Brereton, D.~Budgen, M.~Turner, J.~Bailey, and S.~Linkman,
   literature review,'' \emph{Information and software technology}, vol.~51,
   no.~1, pp. 7--15, 2009.
 
+\bibitem{kitchenham2004evidence}
+B.~A. Kitchenham, T.~Dyba, and M.~Jorgensen, ``Evidence-based software
+  engineering,'' in \emph{Proceedings of the 26th international conference on
+  software engineering}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE Computer
+  Society, 2004, pp. 273--281.
+
+\bibitem{keele2007guidelines}
+C.~S. Kitchenham~B, ``Guidelines for performing systematic literature reviews
+  in software engineering,'' Technical report, Ver. 2.3 EBSE Technical Report.
+  EBSE, Tech. Rep., 2007.
+
 \bibitem{dybaa2008empirical}
 T.~Dyb{\aa} and T.~Dings{\o}yr, ``Empirical studies of agile software
   development: A systematic review,'' \emph{Information and software

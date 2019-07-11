@@ -291,13 +291,13 @@
 % use a multiple column layout for up to three different
 % affiliations
 \author{\IEEEauthorblockN{Senait Behre}
-\IEEEauthorblockA{bla..}
+\IEEEauthorblockA{Matrikelnummer: }
 \and
 \IEEEauthorblockN{Markus Schütterle}
-\IEEEauthorblockA{bla..}
+\IEEEauthorblockA{Matrikelnummer: }
 \and
 \IEEEauthorblockN{Marcel Zeller}
-\IEEEauthorblockA{bla.}}
+\IEEEauthorblockA{Matrikelnummer: }}
 
 % conference papers do not typically use \thanks and this command
 % is locked out in conference mode. If really needed, such as for
@@ -466,17 +466,14 @@ Ziel der Arbeit ist die Identifizierung und Analyse des Stands der Technik in de
 
 
 \section{Forschungsmethode}
-Systematic lierature review.
+Um den aktuellen Forschungsstand zur erfassen und zu evaluieren wird die systematische Literaturrecherche (SLR) nach Kitchenham~\cite{kitchenham2004evidence,keele2007guidelines} verwendet. Die Methode dient dazu, den aktuell verfügbaren Forschungsstand zu einem bestimmten Thema zu identifizieren und zusammenzufassen. Dabei ist eine klare Methodik vorgegeben was die Ergebnisse weniger verzerrt~\cite{keele2007guidelines}.
+Das Protokoll zur systematischen Literaturrecherche umfasst alle notwendigen Informationen, wie die Fragestellungen, Suchanfragen oder die Kriterien zur Auswahl der Ergebnisse. Durch das Protokoll ist die Recherche wiederholbar, sodass sich die Ergebnisse jederzeit reproduzieren lassen.
 
-Budgen\cite{budgen2006performing}
+Das Protokoll der systematischen Literaturrecherche wurde auf Basis der Richtlinien von Kitchenham und Charters~\cite{keele2007guidelines} entwickelt und durchgeführt. Für die Aufbau des Protokolls dienten die Protkolle von Kitchenham~\cite{kitchenham2009systematic}, Leite et al.~\cite{leite2013systematic} und Dyba~\cite{dybaa2008empirical} als Vorbild.
+\subsection{Forschungsfragen}
+Die Forschungsfragen sind an die Fragen der SLR von Leite et al.~\cite{leite2013systematic} orientiert. Dabei wurden die Fragen auf die Thematik der vorliegenden SLR angepasst.
+Dabei wurden folgende Forschungsfragen verwendet:
 
-Dybaa\cite{dybaa2008empirical}
-
-Kitchenham\cite{kitchenham2009systematic}
-\subsection{Forschungsfrage}
-Welche Frage stellen wir?
-
-Folgende Fragen sind an Leite~\cite{leite2013systematic} orientiert:
 
 \textbf{RQ1}: Welche Strategie wählte die ausgewählte Studie für Context Aware Choreography Adaptation? 
 
@@ -497,17 +494,16 @@ Folgende Fragen sind an Leite~\cite{leite2013systematic} orientiert:
 (vi) \textit{Zugrundeliegende Modelle}: Welche Choreography Modelle oder Standards werden in der Stategie verwendet?
 
 \textbf{RQ3}: Was sind die Hauptlimitationen und offene Forschungsfragen der Ansätze von "Context-aware choreography adaption"
-\newpage
 
-Alternative Fragen:
-
-(i) Gibt es ein System, dass auf Situationen reagiert ohne Einfluss eines Menschen?
-
-(ii) Was sind die Vor- und Nachteile eines adaptiven Systems
-
-(iii) Welche Methoden gibt es, um ein System vom Kontext abhängig zu machen?
-
-(iv) Welche Grenzen werden einem Situationsabhängigen System gegeben?
+%Alternative Fragen:
+%
+%(i) Gibt es ein System, dass auf Situationen reagiert ohne Einfluss eines Menschen?
+%
+%(ii) Was sind die Vor- und Nachteile eines adaptiven Systems
+%
+%(iii) Welche Methoden gibt es, um ein System vom Kontext abhängig zu machen?
+%
+%(iv) Welche Grenzen werden einem Situationsabhängigen System gegeben?
 
 
 \subsection{Datenquellen}
@@ -521,29 +517,31 @@ Die Suchanfragen sind an der Suchanfragen der SLR von Leite~\cite{leite2013syste
 Aus der Kombination entstanden 3 Suchblöcke. Der erste Block ist für \textit{context-ware}, der zweite für \textit{choreography} und der dritte Block für \textit{adaption}. Die verschiedenen Strings aus einer Gruppe sind mit ODER (OR) verbunden. Die Suchblöcke werden mit UND (AND) verbunden. Dadurch entstehen Anfragen wobei aus jedem Block ein String enthalten sein muss. Daraus wurden sämtliche Möglichkeiten gebildet. 
 Die Suchanfrage ist die folgende: \\
 
-(
-- Context-aware computing\\
+(\\
+%- Context-aware computing\\
 	Context-aware/Context aware\\
-- Context-specific computing\\
+%- Context-specific computing\\
 	Context-specific/Context specific OR\\
-- Context-dependent computing\\
+%- Context-dependent computing\\
 	Context-dependent/Context dependent OR\\
-- Context-sensitive computing\\
+%- Context-sensitive computing\\
 	Context-sensitive/Context sensitive OR\\
-- Situation-aware computing\\
+%- Situation-aware computing\\
 	Situation-aware/Situation aware\\
-"location" OR\\
-"situational" OR\\
-"environment" OR
-)//
-ab hier vgl. auch Leite2013) \\
+%"location" OR\\
+%"situational" OR\\
+%"environment" OR
+)\\
+AND\\
+ab hier vgl. Leite et al.~\cite{leite2013systematic}) \\
  (
  "choreography" OR\\
 "decentralized composition" OR\\
 "decentralized service composition" OR\\
 "distributed composition" OR\\
-) AND\\
-(
+) \\
+AND\\
+(\\
 adapt* OR\\
 self-config* OR\\
 auto-config* OR\\
@@ -553,19 +551,17 @@ reconfig* OR\\
 )\\
 
 \subsection{Einschluss und Ausschluss Kriterien}
-Nach Suche waren nach entfernen der Duplikate insgesamt 4435 Ergebnisse vorhanden.
+Die gefundenen Ergebnisse durchlaufen, wie in Tabelle \ref{tabelle:auswahlverfahren} gezeigt, mehrere Schritte, wobei passende Ergebnisse ausgewählt werden. Nach der automatisierten Suche waren nach Entfernen der Duplikate insgesamt 4435 Ergebnisse vorhanden. Die Duplikate wurde mit Hilfe von Microsoft Excel über den Titel der Ergebnisse aussortiert.
 
-Alle Paper vor 2000 wurden ausgeschlossen. 2000-2010 mindestens 10 Zitationen. 2011 9 Zitationen, 2012 8 Zitationen, 2013 7 Zitationen, 2014 6 Zitationen, 2015 5 Zitationen, 2016 4 Zitationen, 2017 3 Zitationen, 2018 2 Zitationen, 2019 1 Zitationen. Reultat: 2722 Paper
+Nach dem Entfernen der Duplikate wurden die Ergebnisse auf Basis des Veröffentlichungsjahres und nach der Anzahl der Zitationen vorgefiltert.
+Alle Paper vor dem Jahr 2000 wurden ausgeschlossen. Für die Jahre 2000-2010 wurden mindestens 10 Zitationen als Einschlusskriterium verwendet. Für das Jahr 2011 wurden mindestens 9 Zitationen, für das Jahr 2012 mindestens 8 Zitationen, für das Jahr 2013 mindestens 7 Zitationen, für das Jahr 2014 mindestens 6 Zitationen, für das Jahr 2015 mindestens 5 Zitationen, für das Jahr 2016 mindestens 4 Zitationen, für das Jahr 2017 mindestens 3 Zitationen, für das Jahr 2018 mindestens 2 Zitationen und für das Jahr 2019 mindestens 1 Ziation vorausgesetzt. Als Ergebnis blieben 2722 Ergebnisse übrig.
 
-% TODO Hier fehlen Kriterie wie wir entschieden haben ob wir es auswählen oder nicht
-Hier fehlt wie wir entschieden haben ob wir es auswählen oder nicht.
+Die verbleibenden Ergebnisse wurden manuell weiter sortiert. Dabei wurden vorher festgelegte Einschluss- und Ausschlusskriterien auf die Titel der Ergebnisse und im Zweifelsfall auf die Zusammenfassung angewendet, um die Zahl weiter zu reduzieren. Als Resultat blieben 89 Ergebnisse übrig.
 
-Manuelle Überprüfung wobei Titel und im Zweifelsfalls Abstract gelesen wurde um die Zahl weiter zu reduzieren. Rsulutat: X Paper
-
-Nach lesen sämtlicher Abstracts bleiben X Paper übrig.
-
+Bei den verbleibenden 89 Ergebnissen wurden die Einschluss- und Ausschlusskriterien auf den ganzen Text angewendet. Daraus resultieren die Ergebnisse der vorliegenden systematischen Literaturrecherche. Die Ergebnisse werden in Abschnitt \ref{s:contextAwareResults} zusammengefasst.
 \begin{table}[h]
 	\caption{Studienauswahlverfahren}
+	\label{tabelle:auswahlverfahren}
 \begin{tabular}{p{1cm}|p{6.5cm}}
 
 	Stufe & Beschreibung \\
@@ -620,7 +616,7 @@ In welchen Jahren wurden sie veröffentlicht?
 
 In welche Kategorie kann man die Paper einordnen?
 
-\section{Context-Aware Choreography Adaptation Stategien}
+\section{Context-Aware Choreography Adaptation Stategien}\label{s:contextAwareResults}
 Dieser Abschnitt präsentiert die synthetisierte Daten, um die Forschungsfragen zu beantworten. Zunächst wird ein Überblick über  kontextsensitive Choreographie-Adaptionsstrategien gezeigt, die \textbf{RQ1} beantworten. Anschließend werden die Ergebnisse über die kontextsensitive Adaptionsstrategie zusammengefasst, was \textbf{RQ2} beantwortet. Am Ende wird \textbf{RQ3} beantwortet und die Hauptlimitationen und offenen Forschungsfragen aufgezeigt.
 Werden Fragen nicht beantwortet bedeutet dies, dass in dem Paper darauf nicht eingegangen wurde.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  9 JUL 2019 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  11 JUL 2019 22:10
 entering extended mode
 **./ausarbeitung.tex
 (ausarbeitung.tex
@@ -294,156 +294,139 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05249> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 337.
+ [1{C:/Users/Markus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-Underfull \hbox (badness 2213) in paragraph at lines 499--500
+
+]
+Underfull \hbox (badness 2213) in paragraph at lines 496--497
 []\OT1/ptm/b/n/10.03749 RQ3\OT1/ptm/m/n/10.03749 : Was sind die Hauptlim-i-ta-t
 io-nen und of-fene
  []
 
-[1{C:/Users/Markus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
-[]\OT1/ptm/m/n/10.03749 (iv) Welche Gren-zen wer-den einem Sit-u-a-tion-s-
- []
-
 LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 51
-4.
+0.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.03749> on input line 514.
+(Font)              <10.03749> on input line 510.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.0262> on input line 514.
+(Font)              <7.0262> on input line 510.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.01874> on input line 514.
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 514.
+(Font)              <5.01874> on input line 510.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 510.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.03> on input line 514.
+(Font)              <8.03> on input line 510.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.62097> on input line 514.
+(Font)              <5.62097> on input line 510.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.015> on input line 514.
+(Font)              <4.015> on input line 510.
 
-Underfull \hbox (badness 2310) in paragraph at lines 514--515
+Underfull \hbox (badness 2310) in paragraph at lines 510--511
 \OT1/ptm/m/n/10.03749 durch Skripte au-toma-tisiert. Die Daten-quellen wur-den
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 518--520
+Underfull \hbox (badness 3503) in paragraph at lines 514--516
 []\OT1/ptm/m/n/10.03749 Die Suchen wur-den mit Hilfe von Suchan-fra-gen
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 521--523
+Underfull \hbox (badness 8019) in paragraph at lines 517--519
 []\OT1/ptm/m/n/10.03749 Aus der Kom-bi-na-tion ent-standen 3 Suchbl[]ocke.
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 521--523
+Underfull \hbox (badness 1796) in paragraph at lines 517--519
 \OT1/ptm/m/n/10.03749 Der er-ste Block ist f[]ur \OT1/ptm/m/it/10.03749 context
 -ware\OT1/ptm/m/n/10.03749 , der zweite f[]ur
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 521--523
+Underfull \hbox (badness 1558) in paragraph at lines 517--519
 \OT1/ptm/m/it/10.03749 chore-og-ra-phy \OT1/ptm/m/n/10.03749 und der dritte Blo
 ck f[]ur \OT1/ptm/m/it/10.03749 adap-tion\OT1/ptm/m/n/10.03749 . Die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--523
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--554
+Underfull \hbox (badness 10000) in paragraph at lines 520--552
 
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 561--562
-[]\OT1/ptm/m/n/10.03749 Hier fehlt wie wir entschieden haben ob wir es
  []
 
 [2]
-Underfull \hbox (badness 7099) in paragraph at lines 624--626
+Underfull \hbox (badness 7099) in paragraph at lines 620--622
 \OT1/ptm/m/n/10.03749 um die Forschungs-fra-gen zu beant-worten. Zun[]achst
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 628--632
-[]\OT1/ptm/m/n/10.03749 Narendra und Gun-dugola [[]6[]] zeigen einen Ansatz
+Underfull \hbox (badness 1701) in paragraph at lines 624--628
+[]\OT1/ptm/m/n/10.03749 Narendra und Gun-dugola [[]8[]] zeigen einen Ansatz
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 628--632
+Underfull \hbox (badness 3895) in paragraph at lines 624--628
 \OT1/ptm/m/n/10.03749 zur An-pas-sung von zusam-menge-set-zten Web Ser-vice
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 648--648
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
  \OT1/ptm/b/n/11.04124 4.5. Context-Aware Ser-vice Com-po-si-tion A
  []
 
-
-Underfull \vbox (badness 6001) has occurred while \output is active []
-
- [4]
-Underfull \hbox (badness 1859) in paragraph at lines 676--679
-[]\OT1/ptm/m/n/10.03749 Dorn et al.  [[]14[]] stellen einen Ansatz zur kon-
+[4]
+Underfull \hbox (badness 1859) in paragraph at lines 672--675
+[]\OT1/ptm/m/n/10.03749 Dorn et al.  [[]16[]] stellen einen Ansatz zur kon-
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 676--679
+Underfull \hbox (badness 2626) in paragraph at lines 672--675
 \OT1/ptm/m/n/10.03749 pas-sung wird ges-tartet, wenn die beste-hende Ser-vice
  []
 
 
-Underfull \hbox (badness 7740) in paragraph at lines 676--679
+Underfull \hbox (badness 7740) in paragraph at lines 672--675
 \OT1/ptm/m/n/10.03749 Kon-fig-u-ra-tion nicht mehr mit den Ein-schr[]ankungen
  []
 
 [5]
-Underfull \hbox (badness 3291) in paragraph at lines 696--700
+Underfull \hbox (badness 3291) in paragraph at lines 692--696
 \OT1/ptm/m/n/10.03749 textabh[]angigen Kom-po-si-tion von Web-Services, wobei
  []
 
 [6]
-Underfull \hbox (badness 3449) in paragraph at lines 712--713
+Underfull \hbox (badness 3449) in paragraph at lines 708--709
 \OT1/ptm/m/n/10.03749 Verbindun-gen zu an-deren Ob-jek-ten zugewiesen. Eine
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 712--713
+Underfull \hbox (badness 2326) in paragraph at lines 708--709
 \OT1/ptm/m/n/10.03749 Komposition kann dann auf die tats[]achliche Service-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 714--715
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
 []\OT1/ptm/m/n/10.03749 Der Ansatz un-terst[]utzt Funk-tionale und Nicht-
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 714--715
+Underfull \hbox (badness 4193) in paragraph at lines 710--711
 \OT1/ptm/m/n/10.03749 Funktionale An-forderun-gen (RQ2 i) und funk-tion-iert
  []
 
-[7]
-Underfull \hbox (badness 3838) in paragraph at lines 734--735
+
+Underfull \hbox (badness 3838) in paragraph at lines 730--731
 \OT1/ptm/m/n/10.03749 F[]ur Schritt zwei und drei wer-den ser-vice-spez-i-fis-c
 he
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 743--744
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-(ausarbeitung.bbl)
+(ausarbeitung.bbl [9])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -455,24 +438,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 792.
+[10
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 792.
  (ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 796.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 796.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 792.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 792.
 Package rerunfilecheck Info: File `ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: 07816BC6EB9095CC8FFAAF097531464F;3139.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 796.
+(rerunfilecheck)             Checksum: C635609038BE9DEF537280C25AAC4789;3140.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 792.
  ) 
 Here is how much of TeX's memory you used:
- 5358 strings out of 492970
- 86212 string characters out of 3126150
- 182039 words of memory out of 3000000
- 9153 multiletter control sequences out of 15000+200000
+ 5365 strings out of 492970
+ 86364 string characters out of 3126150
+ 183240 words of memory out of 3000000
+ 9157 multiletter control sequences out of 15000+200000
  43611 words of font info for 78 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 28i,10n,28p,1535b,310s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,11n,28p,1535b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
 c}<C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
@@ -480,9 +465,9 @@ rw/times/utmb8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmbi8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ausarbeitung.pdf (9 pages, 148033 bytes).
+Output written on ausarbeitung.pdf (10 pages, 151880 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
  265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
