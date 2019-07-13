@@ -275,6 +275,8 @@
 
 % URL benutzen
 \usepackage{hyperref}
+% Deutsche Bezeichnungen
+\usepackage[main=ngerman, english]{babel}
 
 \begin{document}
 %
@@ -338,7 +340,7 @@
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-The abstract goes here.
+The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. The abstract goes here. 
 \end{abstract}
 
 % no keywords
@@ -551,6 +553,8 @@ reconfig* OR\\
 )\\
 
 \subsection{Einschluss und Ausschluss Kriterien}
+Da nicht jedes Ergebnis zum Thema passt, werden die Ergebnisse der Suche überprüft. Dabei werden nur Paper in die Ergebnisse der systematischen Literaturrecherche aufgenommen, die sich mit kontextabhängiger Anpassung von Servicechoreografien befassen. Dabei werden Ergebnisse ausgeschlossen, die keinen Kontext in die Anpassungsstrategie einbeziehen, oder für Orchestrationen sind. Kontextabhängige Anpassung einzelner Services wird auch ausgeschlossen, da der Fokus auf Choreografien mehrerer Services liegt.
+
 Die gefundenen Ergebnisse durchlaufen, wie in Tabelle \ref{tabelle:auswahlverfahren} gezeigt, mehrere Schritte, wobei passende Ergebnisse ausgewählt werden. Nach der automatisierten Suche waren nach Entfernen der Duplikate insgesamt 4435 Ergebnisse vorhanden. Die Duplikate wurde mit Hilfe von Microsoft Excel über den Titel der Ergebnisse aussortiert.
 
 Nach dem Entfernen der Duplikate wurden die Ergebnisse auf Basis des Veröffentlichungsjahres und nach der Anzahl der Zitationen vorgefiltert.
@@ -559,6 +563,7 @@ Alle Paper vor dem Jahr 2000 wurden ausgeschlossen. Für die Jahre 2000-2010 wur
 Die verbleibenden Ergebnisse wurden manuell weiter sortiert. Dabei wurden vorher festgelegte Einschluss- und Ausschlusskriterien auf die Titel der Ergebnisse und im Zweifelsfall auf die Zusammenfassung angewendet, um die Zahl weiter zu reduzieren. Als Resultat blieben 89 Ergebnisse übrig.
 
 Bei den verbleibenden 89 Ergebnissen wurden die Einschluss- und Ausschlusskriterien auf den ganzen Text angewendet. Daraus resultieren die Ergebnisse der vorliegenden systematischen Literaturrecherche. Die Ergebnisse werden in Abschnitt \ref{s:contextAwareResults} zusammengefasst.
+
 \begin{table}[h]
 	\caption{Studienauswahlverfahren}
 	\label{tabelle:auswahlverfahren}
@@ -572,12 +577,14 @@ Bei den verbleibenden 89 Ergebnissen wurden die Einschluss- und Ausschlusskriter
 	
 	Stufe 3 & Die Inklusions- und Exklusionskriterien wurden auf die Titel der Paper und bei Unklarheit auf den Abstract angewendet. \\
 	
-	Stufe 4 & Die Inklusions- und Exklusionskriterien wurden auf Abstract und Zusammenfassung anwendet. \\
+	%Stufe 4 & Die Inklusions- und Exklusionskriterien wurden auf Abstract und Zusammenfassung anwendet. \\
 	
-	Stufe 5 & Die Inklusions- und Exklusionskriterien wurden auf den ganzen Text angewendet.
+	Stufe 4 & Die Inklusions- und Exklusionskriterien wurden auf den ganzen Text angewendet.
 	
 \end{tabular}
 \end{table}
+
+
 \subsection{Datenextrahierung}
 Die Daten wurden mithilfe eines automatisierten Suchskriptes extrahiert.
 Jede der Anfragen wurde einzeln auf jeder der genannten Suchmaschinen ausgeführt. Die Ergebnisse der einzelnen Suchanfragen wurden jeweils in einer CSV-Datei gespeichert.
@@ -596,14 +603,17 @@ Dabei wurden die folgenden Metadaten extrahiert:
 	\item Digitale Objekt ID (DOI) des Ergebnisses
 \end{itemize}
 
-Die Ergebnisse der einzelnen Suchfragen wurden anschließend in einer einzelnen CSV-Datei zusammengefasst, wobei 9168 Paper als Ergebnis resultieren. Aufgrund der Suchanfragen auf verschiedenen Suchmaschinen sind darin Duplikate enthalten. Die Duplikate wurden deshalb aus den Ergebnissen entfernt.
-
-%TODO Erklären wie Duplikate entfernt wurden
-
-Nach dem entfernen der Duplikate bleiben 4435 Ergebnisse übrig.
+Die Ergebnisse der einzelnen Suchfragen wurden anschließend in einer einzelnen CSV-Datei zusammengefasst, wobei 9168 Paper als Ergebnis resultieren. Aufgrund der Suchanfragen auf verschiedenen Suchmaschinen sind darin Duplikate enthalten. Die Duplikate wurden deshalb mit Hilfe von Microsoft Excel aus den Ergebnissen entfernt.
+Nach dem Entfernen der Duplikate bleiben 4435 Ergebnisse übrig.
 
 \subsection{Protokol Evaluierung und Limitierungen}
-Braucht man nach Kitchenham
+Die systematische Literaturrecherche wurde mit einem Python-Script automatisiert. Dazu wurden die Suchanfragen auf den verschiedenen Datenquellen ausgeführt und die Metadaten, wie Titel, Author oder Anzahl der Zitationen heruntergeladen. Dabei waren nicht für jedes Ergebnisse alle Metadaten vorhanden. Manche haben zum Beispiel keine Zitationen oder keinen \textit{Digital Object Identifier (DOI Object Identifier} (DOI)
+
+Bei Springer Link gibt es keine offizielle API für automatische Suchen. Die Anzahl der möglichen Anfragen ist nicht begrenzt und auch bei einer Vielzahl von Anfragen wird kein Bann gegen den Benutzer verhängt. Allerdings können maximal 1000 Seiten pro Suche von Springer Link abgefragt werden, weshalb der Crawler limitiert wurde. 
+
+Google Scholar beschränkt die Anzahl der Anfragen. Dies führt bei automatischen Suchen, wie im Rahmen dieser Arbeit wird der Benutzer temporär gebannt. Der Bann wird nach dem Crawlen von ungefähr 40 Seiten aktiv. Der Crawler für Google Scholar wurde deswegen auf 10 Seiten pro Suchanfrage begrenzt. Pro Seite werden 10 Ergebnisse angezeigt. Folglich werden für jede Suchanfrage maximal 100 Ergebnisse gecrawlt. 
+
+IEEE Xplore bietet eine API\footnote{\url{https://developer.ieee.org/docs/read/Searching_the_IEEE_Xplore_Metadata_API}} für automatisierte Suchanfragen an.
 
 \section{Charakterisierung der ausgewählten Studien}
 Hier kommen allgemeine Sachen über die gefundenen Paper hin. Dies gibt eine Übersicht über die gefundenen Paper. Siehe SLR von Leite\cite{leite2013systematic}.
