@@ -190,4 +190,14 @@ L.~Seinturier, P.~Merle, D.~Fournier, N.~Dolet, V.~Schiavoni, and J.-B.
   \emph{2009 IEEE International Conference on Services Computing}, 2009, pp.
   268--275.
 
+\bibitem{truong2009survey}
+H.-L. Truong and S.~Dustdar, ``A survey on context-aware web service systems,''
+  \emph{International Journal of Web Information Systems}, vol.~5, no.~1, pp.
+  5--31, 2009.
+
+\bibitem{di2008journey}
+E.~Di~Nitto, C.~Ghezzi, A.~Metzger, M.~Papazoglou, and K.~Pohl, ``A journey to
+  highly dynamic, self-adaptive service-based applications,'' \emph{Automated
+  Software Engineering}, vol.~15, no. 3-4, pp. 313--341, 2008.
+
 \end{thebibliography}
