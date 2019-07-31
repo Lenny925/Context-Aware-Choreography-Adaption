@@ -520,6 +520,7 @@ Um die Reproduzierbarkeit der durchgeführten systematischen Literaturrecherche 
 
 
 \subsection{Abfragezeichenfolge}
+\label{section:suchanfrage}
 Die Suchen wurden mit Hilfe von Suchanfragen durchgeführt. Dabei wurden Titel und Zusammenfassung der Paper durchsucht.
 Die Suchanfragen sind an der Suchanfragen der SLR von Leite~\cite{leite2013systematic} orientiert und wird durch Suchwörter zu Context Aware erweitert.
 
@@ -567,7 +568,7 @@ Die gefundenen Ergebnisse durchlaufen, wie in Tabelle \ref{tabelle:auswahlverfah
 Nach dem Entfernen der Duplikate wurden die Ergebnisse auf Basis des Veröffentlichungsjahres und nach der Anzahl der Zitationen vorgefiltert.
 Alle Paper vor dem Jahr 2000 wurden ausgeschlossen. Für die Jahre 2000-2010 wurden mindestens 10 Zitationen als Einschlusskriterium verwendet. Für das Jahr 2011 wurden mindestens 9 Zitationen, für das Jahr 2012 mindestens 8 Zitationen, für das Jahr 2013 mindestens 7 Zitationen, für das Jahr 2014 mindestens 6 Zitationen, für das Jahr 2015 mindestens 5 Zitationen, für das Jahr 2016 mindestens 4 Zitationen, für das Jahr 2017 mindestens 3 Zitationen, für das Jahr 2018 mindestens 2 Zitationen und für das Jahr 2019 mindestens 1 Ziation vorausgesetzt. Als Ergebnis blieben 2722 Ergebnisse übrig.
 
-Die verbleibenden Ergebnisse wurden manuell weiter sortiert. Dabei wurden vorher festgelegte Einschluss- und Ausschlusskriterien auf die Titel der Ergebnisse und im Zweifelsfall auf die Zusammenfassung angewendet, um die Zahl weiter zu reduzieren. Als Resultat blieben 89 Ergebnisse übrig.
+Die verbleibenden Ergebnisse wurden manuell weiter sortiert. Dabei wurden die vorher festgelegte Einschluss- und Ausschlusskriterien entsprechend der Suchanfrage aus Kapitel \ref{section:suchanfrage} auf die Titel der Ergebnisse und im Zweifelsfall auf die Zusammenfassung angewendet, um die Zahl weiter zu reduzieren. Als Resultat blieben 89 Ergebnisse übrig.
 
 Bei den verbleibenden 89 Ergebnissen wurden die Einschluss- und Ausschlusskriterien auf den ganzen Text angewendet. Daraus resultieren die Ergebnisse der vorliegenden systematischen Literaturrecherche. Die Ergebnisse werden in Abschnitt \ref{s:contextAwareResults} zusammengefasst.
 
@@ -781,10 +782,14 @@ Di Nito et al.~\cite{di2008journey} diskutieren in ihrer Arbeit die immer größ
 \section{Zusammenfassung}
 Eine Service-Choreographie ist eine Beschreibung von mehreren Services, welche sich dezentral organisieren, indem die einzelnen Services durch Austauschen von Nachrichten, Interaktionsregeln und Vereinbarungen miteiander kommunizieren. Um sich ändernden Anforderungen anzupassen und die Servicequalität zu erhöhen werden Strategien zur Anpassung von Service-Choreographien benötigt. Dazu kann der Kontext einer Situation verwendet werden, zu der sich die Choreographie anpassen soll. Zu dem Kontext gehören alle Informationen, die in Zusammenhang mit der aktuellen Situation oder Handlung sind, wie beispielsweise Ort oder Informationen über den Nutzer.
 
-In dieser Arbeit wird der aktuelle Forschungsstand zur kontextabhängigen Anpassung von Service-Choreographien zusammengefasst. Dazu wird die systematische Literaturrecherche verwendet. Dabei wurde das Vorgehen protokolliert, was die Reproduzierbarkeit dieser Literaturrecherche erhöht. Dabei wurden die dreiteiligen Suchanfragen automatisiert auf den Suchmaschinen Google Scholar, Springer Link und IEEEXplore ausgeführt. Die Ergebnisse wurden manuell nach Ein- und Ausschlusskriterien sortiert wobei insgesamt X %TODO anzahl ergebnisse
-themenrelevante Ergebnisse gefunden wurden. Für jedes Ergebnis wurde zusammengefasst, welche Adaptionsstrategie in dem Ansatz verwendet wird. Des Weiteren wurde zusammengefasst, wie die Adaption durchgeführt wird. Dabei wurde aus den Ergebnissen Informationen zum Ziel der Anpassung, der erforderlicher Eingriffsgrad, Aspekte zur Kontextsensitivität, Auswirkungen auf die Skalierbarkeit, bestehende Implementierungen sowie zugrundeliegende Modelle zusammengefasst. Zudem wurden die bestehenden Limitationen zu jedem Ergebnis aufgeführt.
+Diese Arbeit fasst den aktuellen Forschungsstand zur kontextabhängigen Anpassung von Service-Choreographien zusammen. Das Vorgehen der Systematischen Literaturrecherche ist protokolliert was die Reproduzierbarkeit garantiert. Die Literaturrecherche besteht aus einer dreiteiligen Suchanfragen, automatisiert ausgeführt auf den Suchmaschinen Google Scholar, Springer Link und IEEEXplore. Die Ergebnisse sind automatisch vorsortiert und manuell nach Ein- und Ausschlusskriterien nachsortiert, wobei insgesamt X %TODO anzahl ergebnisse
+themenrelevante Ergebnisse ausgewählt sind. Für jedes Ergebnis ist zusammengefasst, welche Adaptionsstrategie in dem Ansatz verwendet wird. Des Weiteren ist dargelegt, wie die Adaption durchgeführt wird. Dabei ist aus den Ergebnissen Informationen zum Ziel der Anpassung, der erforderlicher Eingriffsgrad, Aspekte zur Kontextsensitivität, Auswirkungen auf die Skalierbarkeit, bestehende Implementierungen sowie zugrundeliegende Modelle zusammengefasst. Zudem sind die bestehenden Limitationen zu jedem Ergebnis aufgeführt.
 
-In Zukunft kann die systematische Literaturrecherche zur kontextabhängigen Anpassung von Service-Choreographien erneut durchgeführt werden, um neue Ansätze zu finden. Dies ist durch das automatisierte Skript und das Protokoll möglich. Zudem können die Suchanfragen weiter verfeinert werden, indem neue Suchwörter zu den bestehenden hinzugefügt werden
+Eine Kategorisierung der Ergebnisse ist schwierig. Zwar gibt es Gemeinsamkeiten zwischen den Ansätzen, diese sind aber so generisch, dass sie auf alle ausgewählten Ansätze zutreffen. Bei detaillierterer Betrachtung unterscheiden sich die Ansätze allerdings so stark, dass eine Einteilung in größere Kategorien nicht möglich ist.
+
+Eine Schwierigkeit bei der Endauswahl der Ansätze zur kontextabhängigen Anpassung von Service-Choreographien ist die ungenaue Bezeichnung und Abgrenzung der verwendeten Service-Komposition in einem Ansatz. Oftmals wird eine Choreographie nicht als solche bezeichnet, auch wenn sie vorhanden ist.
+
+In Zukunft kann die systematische Literaturrecherche zur kontextabhängigen Anpassung von Service-Choreographien erneut durchgeführt werden, um neue Ansätze zu finden. Dies ist durch das automatisierte Skript und das Protokoll möglich. Zudem können die Suchanfragen weiter verfeinert werden, indem neue Suchwörter zu den bestehenden hinzugefügt werden.
 
 %% use section* for acknowledgment
 %\ifCLASSOPTIONcompsoc
