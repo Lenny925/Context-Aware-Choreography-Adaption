@@ -21,16 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{dey2001understanding}
-A.~Dey, ``Understanding and using context, personal and ubiquitous computing,
-  vol. 5,'' 2001.
-
-\bibitem{leite2013systematic}
-L.~A. Leite, G.~A. Oliva, G.~M. Nogueira, M.~A. Gerosa, F.~Kon, and D.~S.
-  Milojicic, ``A systematic literature review of service choreography
-  adaptation,'' \emph{Service Oriented Computing and Applications}, vol.~7,
-  no.~3, pp. 199--216, 2013.
-
 \bibitem{budgen2006performing}
 D.~Budgen and P.~Brereton, ``Performing systematic literature reviews in
   software engineering,'' in \emph{Proceedings of the 28th international
@@ -53,6 +43,12 @@ B.~A. Kitchenham, T.~Dyba, and M.~Jorgensen, ``Evidence-based software
 C.~S. Kitchenham~B, ``Guidelines for performing systematic literature reviews
   in software engineering,'' Technical report, Ver. 2.3 EBSE Technical Report.
   EBSE, Tech. Rep., 2007.
+
+\bibitem{leite2013systematic}
+L.~A. Leite, G.~A. Oliva, G.~M. Nogueira, M.~A. Gerosa, F.~Kon, and D.~S.
+  Milojicic, ``A systematic literature review of service choreography
+  adaptation,'' \emph{Service Oriented Computing and Applications}, vol.~7,
+  no.~3, pp. 199--216, 2013.
 
 \bibitem{dybaa2008empirical}
 T.~Dyb{\aa} and T.~Dings{\o}yr, ``Empirical studies of agile software
@@ -189,6 +185,39 @@ L.~Seinturier, P.~Merle, D.~Fournier, N.~Dolet, V.~Schiavoni, and J.-B.
   Stefani, ``Reconfigurable sca applications with the frascati platform,'' in
   \emph{2009 IEEE International Conference on Services Computing}, 2009, pp.
   268--275.
+
+\bibitem{magableh2009pcoms}
+B.~Magableh and S.~Barrett, ``Pcoms: A component model for building
+  context-dependent applications,'' in \emph{2009 Computation World: Future
+  Computing, Service Computation, Cognitive, Adaptive, Content,
+  Patterns}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2009, pp. 44--48.
+
+\bibitem{dustdar2010roadmap}
+S.~Dustdar, C.~Dorn, F.~Li, L.~Baresi, G.~Cabri, C.~Pautasso, and
+  F.~Zambonelli, ``A roadmap towards sustainable self-aware service systems,''
+  in \emph{Proceedings of the 2010 ICSE Workshop on Software Engineering for
+  Adaptive and Self-Managing Systems}.\hskip 1em plus 0.5em minus 0.4em\relax
+  ACM, 2010, pp. 10--19.
+
+\bibitem{kennedy2010decentralised}
+C.~Kennedy, ``Decentralised metacognition in context-aware autonomic systems:
+  some key challenges,'' in \emph{Workshops at the Twenty-Fourth AAAI
+  Conference on Artificial Intelligence}, 2010.
+
+\bibitem{thomson2003approach}
+G.~Thomson, M.~Richmond, S.~Terzis, and P.~Nixon, ``An approach to dynamic
+  context discovery and composition,'' in \emph{Proceedings of UbiSys' 03,
+  System Support for Ubiquitous Computing Workshop}, 2003.
+
+\bibitem{bharadwaj2005service}
+R.~Bharadwaj, S.~Mukhopadhyay, and N.~Padh, ``Service composition in a secure
+  agent-based architecture,'' in \emph{2005 IEEE International Conference on
+  e-Technology, e-Commerce and e-Service}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2005, pp. 787--790.
+
+\bibitem{dey2001understanding}
+A.~Dey, ``Understanding and using context, personal and ubiquitous computing,
+  vol. 5,'' 2001.
 
 \bibitem{truong2009survey}
 H.-L. Truong and S.~Dustdar, ``A survey on context-aware web service systems,''
