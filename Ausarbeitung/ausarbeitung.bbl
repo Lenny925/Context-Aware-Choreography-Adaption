@@ -204,6 +204,11 @@ C.~Kennedy, ``Decentralised metacognition in context-aware autonomic systems:
   some key challenges,'' in \emph{Workshops at the Twenty-Fourth AAAI
   Conference on Artificial Intelligence}, 2010.
 
+\bibitem{kennedy2003autonomous}
+C.~M. Kennedy and A.~Sloman, ``Autonomous recovery from hostile code insertion
+  using distributed reflection,'' \emph{Cognitive Systems Research}, vol.~4,
+  no.~2, pp. 89--117, 2003.
+
 \bibitem{thomson2003approach}
 G.~Thomson, M.~Richmond, S.~Terzis, and P.~Nixon, ``An approach to dynamic
   context discovery and composition,'' in \emph{Proceedings of UbiSys' 03,
