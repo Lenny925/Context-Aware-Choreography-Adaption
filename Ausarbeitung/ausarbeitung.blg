@@ -5,7 +5,10 @@ Database file #2: Bibliography/bibliography.bib
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in rocha2008middleware
+Warning--empty journal in huang2005situationaware
+Warning--empty journal in yau2002adaptive
 Warning--empty journal in dey2001understanding
 
 Done.
-(There was 1 warning)
+(There were 4 warnings)
