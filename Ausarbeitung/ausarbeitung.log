@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  1 AUG 2019 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  1 AUG 2019 18:45
 entering extended mode
 **./ausarbeitung.tex
 (ausarbeitung.tex
@@ -463,24 +463,24 @@ Underfull \hbox (badness 1394) in paragraph at lines 763--764
  []
 
 [10] [11]
-Underfull \hbox (badness 1590) in paragraph at lines 776--777
+Underfull \hbox (badness 1590) in paragraph at lines 780--781
 \OT1/ptm/m/n/10.03749 wird und an-wen-dungs-spe-zi-fi-sche Kon-text-de-tek-to-r
 en zur
  []
 
 [12]
-Underfull \hbox (badness 1789) in paragraph at lines 802--803
+Underfull \hbox (badness 1789) in paragraph at lines 806--807
 []\OT1/ptm/m/n/10.03749 In Zu-kunft kann die sys-te-ma-ti-sche Li-te-ra-tur-re-
 cher-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 802--803
+Underfull \hbox (badness 6675) in paragraph at lines 806--807
 \OT1/ptm/m/n/10.03749 che zur kon-textabh[]angigen An-pas-sung von Service-
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 802--803
+Underfull \hbox (badness 2142) in paragraph at lines 806--807
 \OT1/ptm/m/n/10.03749 Choreographien er-neut durch-gef[]uhrt wer-den, um neue
  []
 
@@ -496,21 +496,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 850.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 854.
 [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 850.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 854.
  (ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 850.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 850.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 854.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 854.
 Package rerunfilecheck Info: File `ausarbeitung.out' has not changed.
 (rerunfilecheck)             Checksum: 7E617BFC08D20391DEA4A28F4DCD7B86;3915.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 850.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 854.
  ) 
 Here is how much of TeX's memory you used:
- 6001 strings out of 492970
- 95957 string characters out of 3126150
+ 5999 strings out of 492970
+ 95927 string characters out of 3126150
  203272 words of memory out of 3000000
- 9742 multiletter control sequences out of 15000+200000
+ 9740 multiletter control sequences out of 15000+200000
  43611 words of font info for 78 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  28i,10n,28p,3094b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -521,9 +521,9 @@ rw/times/utmb8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmbi8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ausarbeitung.pdf (14 pages, 189194 bytes).
+Output written on ausarbeitung.pdf (14 pages, 191173 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
+ 415 PDF objects out of 1000 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)
  313 words of extra memory for PDF output out of 10000 (max. 10000000)
 
