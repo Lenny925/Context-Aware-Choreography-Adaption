@@ -209,11 +209,6 @@ C.~M. Kennedy and A.~Sloman, ``Autonomous recovery from hostile code insertion
   using distributed reflection,'' \emph{Cognitive Systems Research}, vol.~4,
   no.~2, pp. 89--117, 2003.
 
-\bibitem{thomson2003approach}
-G.~Thomson, M.~Richmond, S.~Terzis, and P.~Nixon, ``An approach to dynamic
-  context discovery and composition,'' in \emph{Proceedings of UbiSys' 03,
-  System Support for Ubiquitous Computing Workshop}, 2003.
-
 \bibitem{bharadwaj2005service}
 R.~Bharadwaj, S.~Mukhopadhyay, and N.~Padh, ``Service composition in a secure
   agent-based architecture,'' in \emph{2005 IEEE International Conference on
@@ -224,13 +219,14 @@ R.~Bharadwaj, S.~Mukhopadhyay, and N.~Padh, ``Service composition in a secure
 A.~d.~R. Ricardo, Couto, E.~Markus, and S.~d.~S. Thiago, ``Middleware for
   ubiquitous context-awareness,'' 2008.
 
+\bibitem{SER04}
+V.~Sacramento, M.~Endler, H.~Rubinsztejn, L.~Lima, G.~K., F.~Nascimento, and
+  G.~Bueno, ``Moca: A middleware for developing collaborative applications for
+  mobile users,'' p.~2, 2004.
+
 \bibitem{huang2005situationaware}
 H.~Dazhi and H.~Davulcu, ``Situation-awareness for adaptive coordination in
   service-based systems,'' 2005.
-
-\bibitem{yau2002adaptive}
-Y.~Stephen, S. and K.~Fariaz, ``Adaptive middleware for ubiquitous computing
-  environments,'' pp. 131--140, 2002.
 
 \bibitem{dey2001understanding}
 A.~Dey, ``Understanding and using context, personal and ubiquitous computing,
