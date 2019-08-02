@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  2 AUG 2019 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  2 AUG 2019 18:33
 entering extended mode
 **./ausarbeitung.tex
 (ausarbeitung.tex
@@ -398,24 +398,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 624--624
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 638--640
-[]\OT1/ptm/m/n/10.03749 Dieser Ab-schnitt pr[]asentiert die syn-the-ti-sier-te 
-Da-
+Underfull \hbox (badness 2005) in paragraph at lines 638--640
+\OT1/ptm/m/n/10.03749 fra-gen zu-sam-men-ge-fasst wer-den. Da-bei wird zun[]ach
+st
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 642--646
-[]\OT1/ptm/m/n/10.03749 Narendra und Gun-du-go-la [[]7[]] zei-gen einen An-satz
-
+Underfull \hbox (badness 3039) in paragraph at lines 638--640
+\OT1/ptm/m/n/10.03749 ein []Uberblick []uber die kon-text-sen-si-ti-ve Choreogr
+afie-
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 642--646
-\OT1/ptm/m/n/10.03749 zur An-pas-sung von zu-sam-men-ge-setz-ten Web Ser-vice
+Underfull \hbox (badness 6063) in paragraph at lines 642--646
+[]\OT1/ptm/m/n/10.03749 Narendra und Gun-du-go-la [[]7[]] zei-gen einen An-
  []
 
 [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4686) has occurred while \output is active []
 
  [4]
 Underfull \vbox (badness 1997) has occurred while \output is active []
@@ -439,23 +439,27 @@ Underfull \hbox (badness 7099) in paragraph at lines 728--729
 \OT1/ptm/m/n/10.03749 Funktionale An-for-de-run-gen (RQ2.1) und funk-tio-niert
  []
 
-[8] [9] [10] [11]
-Underfull \hbox (badness 1789) in paragraph at lines 795--796
+[8]
+Underfull \vbox (badness 4254) has occurred while \output is active []
+
+ [9]
+[10]
+Underfull \hbox (badness 1789) in paragraph at lines 791--792
 []\OT1/ptm/m/n/10.03749 In Zu-kunft kann die sys-te-ma-ti-sche Li-te-ra-tur-re-
 cher-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 795--796
+Underfull \hbox (badness 6675) in paragraph at lines 791--792
 \OT1/ptm/m/n/10.03749 che zur kon-textabh[]angigen An-pas-sung von Service-
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 795--796
+Underfull \hbox (badness 2142) in paragraph at lines 791--792
 \OT1/ptm/m/n/10.03749 Choreographien er-neut durch-gef[]uhrt wer-den, um neue
  []
 
-(ausarbeitung.bbl [12])
+(ausarbeitung.bbl [11])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -467,49 +471,34 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 843.
-[13
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 843.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 839.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 839.
  (ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 843.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 843.
-
-
-Package rerunfilecheck Warning: File `ausarbeitung.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ausarbeitung.out':
-(rerunfilecheck)             Before: 7ECB5302440937E6C890E409D5A942BF;3698
-(rerunfilecheck)             After:  5CCEA2983DF1973A226B17FEFE7DC270;3443.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 843.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 839.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 839.
+Package rerunfilecheck Info: File `ausarbeitung.out' has not changed.
+(rerunfilecheck)             Checksum: 5CED81BA20FB66AE88A078ED66D5795D;3335.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 839.
  ) 
 Here is how much of TeX's memory you used:
- 5992 strings out of 492970
- 95791 string characters out of 3126150
+ 5985 strings out of 492970
+ 95688 string characters out of 3126150
  203220 words of memory out of 3000000
- 9737 multiletter control sequences out of 15000+200000
+ 9734 multiletter control sequences out of 15000+200000
  43611 words of font info for 78 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 28i,10n,28p,3094b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.3.25} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.24} has been referenced but does not e
-xist, replaced by a fixed one
-
-{C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
-<C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
-/times/utmb8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/urw/times/utmbi8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/urw/times/utmr8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ausarbeitung.pdf (13 pages, 181951 bytes).
+ 28i,10n,28p,2383b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
+c}<C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
+rw/times/utmb8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmbi8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/urw/times/utmr8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ausarbeitung.pdf (12 pages, 176985 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 297 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 379 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
