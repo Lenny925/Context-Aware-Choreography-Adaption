@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.31)  2 AUG 2019 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.31)  2 AUG 2019 18:00
 entering extended mode
 **./ausarbeitung.tex
 (ausarbeitung.tex
@@ -416,30 +416,24 @@ Underfull \hbox (badness 7099) in paragraph at lines 728--729
 \OT1/ptm/m/n/10.03749 Funktionale An-for-de-run-gen (RQ2.1) und funk-tio-niert
  []
 
-[8]
-Underfull \hbox (badness 1655) in paragraph at lines 754--755
-\OT1/ptm/m/n/10.03749 be-schreibt. 3) Ein Midd-le-wa-re-de-sign, das den An-pas
--
- []
-
-[9]
-Underfull \hbox (badness 4832) in paragraph at lines 759--759
- \OT1/ptm/b/n/11.04124 3.22. De-cen-tra-li-sed Me-ta-co-gni-ti-on in Context-
+[8] [9]
+Underfull \hbox (badness 4832) in paragraph at lines 756--756
+ \OT1/ptm/b/n/11.04124 3.21. De-cen-tra-li-sed Me-ta-co-gni-ti-on in Context-
  []
 
 [10] [11]
-Underfull \hbox (badness 1789) in paragraph at lines 800--801
+Underfull \hbox (badness 1789) in paragraph at lines 797--798
 []\OT1/ptm/m/n/10.03749 In Zu-kunft kann die sys-te-ma-ti-sche Li-te-ra-tur-re-
 cher-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 800--801
+Underfull \hbox (badness 6675) in paragraph at lines 797--798
 \OT1/ptm/m/n/10.03749 che zur kon-textabh[]angigen An-pas-sung von Service-
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 800--801
+Underfull \hbox (badness 2142) in paragraph at lines 797--798
 \OT1/ptm/m/n/10.03749 Choreographien er-neut durch-gef[]uhrt wer-den, um neue
  []
 
@@ -455,15 +449,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 848.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
 [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 848.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
  (ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 848.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 848.
-Package rerunfilecheck Info: File `ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: 7ECB5302440937E6C890E409D5A942BF;3698.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 848.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
+
+
+Package rerunfilecheck Warning: File `ausarbeitung.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ausarbeitung.out':
+(rerunfilecheck)             Before: 7ECB5302440937E6C890E409D5A942BF;3698
+(rerunfilecheck)             After:  D70001FB471C61EFB8C1B647BEBBD02A;3578.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 845.
  ) 
 Here is how much of TeX's memory you used:
  5996 strings out of 492946
@@ -472,15 +473,18 @@ Here is how much of TeX's memory you used:
  9765 multiletter control sequences out of 15000+200000
  43611 words of font info for 78 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 28i,10n,28p,3094b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ausarbeitung.pdf (13 pages, 184082 bytes).
+ 28i,10n,28p,3094b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsection.3.25} has been referenced but does not
+ exist, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ausarbeitung.pdf (13 pages, 182918 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
+ 399 PDF objects out of 1000 (max. 8388607)
  96 named destinations out of 1000 (max. 500000)
  297 words of extra memory for PDF output out of 10000 (max. 10000000)
 
