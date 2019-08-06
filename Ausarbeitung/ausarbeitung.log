@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  6 AUG 2019 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  6 AUG 2019 20:58
 entering extended mode
 **./ausarbeitung.tex
 (ausarbeitung.tex
@@ -384,92 +384,83 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.015> on input line 522.
 
-Underfull \hbox (badness 8019) in paragraph at lines 530--532
+Underfull \hbox (badness 8019) in paragraph at lines 530--564
 []\OT1/ptm/m/n/10.03749 Aus der Kom-bi-na-ti-on ent-stan-den 3 Such-bl[]ocke.
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 530--532
-\OT1/ptm/m/n/10.03749 Der ers-te Block ist f[]ur \OT1/ptm/m/it/10.03749 context
--ware\OT1/ptm/m/n/10.03749 , der zwei-te f[]ur
+Underfull \hbox (badness 1721) in paragraph at lines 530--564
+\OT1/ptm/m/n/10.03749 wur-den s[]amtliche M[]oglichkeiten ge-bil-det und auf di
+e
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 530--532
-\OT1/ptm/m/it/10.03749 cho-reo-gra-phy \OT1/ptm/m/n/10.03749 und der drit-te Bl
-ock f[]ur \OT1/ptm/m/it/10.03749 ad-ap-ti-on\OT1/ptm/m/n/10.03749 . Die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 530--532
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 533--565
+Underfull \hbox (badness 10000) in paragraph at lines 530--564
 
  []
 
 [2]
-Overfull \hbox (5.20778pt too wide) in paragraph at lines 621--621
+Overfull \hbox (5.20778pt too wide) in paragraph at lines 620--620
 [][][][][]$\OT1/ptm/m/n/8.03 https : / / github . com / Lenny925 / Context-[]Aw
 are-[]Choreography-[]Adaptation$[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--627
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 [][][][][]$\OT1/ptm/m/n/8.03 https : / / developer . ieee . org / docs / read /
  Searching[]the[]IEEE[]Xplore[]
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 641--643
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
+ \OT1/ptm/b/n/12.045 3. Stra-te-gi-en f[]ur kon-textabh[]anige
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 640--642
 \OT1/ptm/m/n/10.03749 fra-gen zu-sam-men-ge-fasst wer-den. Da-bei wird zun[]ach
 st
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 641--643
+Underfull \hbox (badness 3039) in paragraph at lines 640--642
 \OT1/ptm/m/n/10.03749 ein []Uberblick []uber die kon-text-sen-si-ti-ve Choreogr
 afie-
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 645--649
+Underfull \hbox (badness 6063) in paragraph at lines 644--648
 []\OT1/ptm/m/n/10.03749 Narendra und Gun-du-go-la [[]7[]] zei-gen einen An-
  []
 
-[3] [4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-Underfull \hbox (badness 1859) in paragraph at lines 693--696
+[3] [4] [5]
+Underfull \hbox (badness 1859) in paragraph at lines 692--695
 []\OT1/ptm/m/n/10.03749 Dorn et al.  [[]15[]] stel-len einen An-satz zur kon-
  []
 
 [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 731--732
+Underfull \hbox (badness 10000) in paragraph at lines 730--731
 []\OT1/ptm/m/n/10.03749 Der An-satz un-terst[]utzt Funk-tio-na-le und Nicht-
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 731--732
+Underfull \hbox (badness 7099) in paragraph at lines 730--731
 \OT1/ptm/m/n/10.03749 Funktionale An-for-de-run-gen (RQ2.1) und funk-tio-niert
  []
 
 [8] [9] [10]
-Underfull \hbox (badness 1789) in paragraph at lines 796--797
+Underfull \hbox (badness 1789) in paragraph at lines 795--796
 []\OT1/ptm/m/n/10.03749 In Zu-kunft kann die sys-te-ma-ti-sche Li-te-ra-tur-re-
 cher-
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 796--797
+Underfull \hbox (badness 6675) in paragraph at lines 795--796
 \OT1/ptm/m/n/10.03749 che zur kon-textabh[]angigen An-pas-sung von Service-
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 796--797
+Underfull \hbox (badness 2142) in paragraph at lines 795--796
 \OT1/ptm/m/n/10.03749 Choreographien er-neut durch-gef[]uhrt wer-den, um neue
  []
 
@@ -485,23 +476,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 844.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 843.
 [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 844.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 843.
  (ausarbeitung.aux
-Package cleveref Info: loaded `ngerman' language definitions on input line 23.
+Package cleveref Info: loaded `ngerman' language definitions on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 844.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 844.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 843.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 843.
 Package rerunfilecheck Info: File `ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: 5CED81BA20FB66AE88A078ED66D5795D;3335.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 844.
+(rerunfilecheck)             Checksum: 0806DD20FDDEF3342B041EDF7E28C5A4;3349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 843.
  ) 
 Here is how much of TeX's memory you used:
- 7662 strings out of 492970
- 134089 string characters out of 3126150
+ 7663 strings out of 492970
+ 134113 string characters out of 3126150
  273521 words of memory out of 3000000
- 11403 multiletter control sequences out of 15000+200000
+ 11404 multiletter control sequences out of 15000+200000
  43611 words of font info for 78 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  28i,10n,28p,2383b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -512,9 +503,9 @@ rw/times/utmb8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmbi8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ausarbeitung.pdf (12 pages, 178575 bytes).
+Output written on ausarbeitung.pdf (12 pages, 179181 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
+ 387 PDF objects out of 1000 (max. 8388607)
  92 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
