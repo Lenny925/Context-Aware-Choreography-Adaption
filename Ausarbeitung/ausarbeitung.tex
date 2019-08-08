@@ -520,13 +520,16 @@ RQ2.6 \textit{Zugrundeliegende Modelle}: Welche Modelle oder Standards werden in
 
 
 \subsection{Datenquellen}\label{ss:datenquellen}
-Um die Reproduzierbarkeit der durchgeführten systematischen Literaturrecherche zu gewährleisten, wurde der Suchprozess durch Skripte automatisiert. Die Datenquellen wurden mit einem benutzerdefinierten Python Skript durchsucht. Dazu wurden die folgenden wissenschaftlichen Quellen mit einer definierten Zeichenabfolge (siehe \cref{section:suchanfrage} durchsucht: IEEE Xplore\footnote{\url{https://ieeexplore.ieee.org/Xplore/home.jsp}} SpringerLink\footnote{\url{https://link.springer.com/}} und Google Scholar\footnote{\url{https://scholar.google.de/}}
+Die Ergebnisse wurden aus verschiedenen öffentlichen Datenquellen extrahiert. Als Datenquellen für die Suche wurden die folgenden wissenschaftlichen Quellen mit einer definierten Zeichenabfolge (siehe \cref{section:suchanfrage} durchsucht: IEEE Xplore\footnote{\url{https://ieeexplore.ieee.org/Xplore/home.jsp}} SpringerLink\footnote{\url{https://link.springer.com/}} und Google Scholar\footnote{\url{https://scholar.google.de/}}
+
+Um die Reproduzierbarkeit der durchgeführten systematischen Literaturrecherche zu gewährleisten, wurde der Suchprozess durch Skripte automatisiert. Dazu wurden die
+genannten Datenquellen mit einem Python Skript durchsucht.
 
 
 \subsection{Abfragezeichenfolge}
 \label{section:suchanfrage}
 Die Suchen wurden mithilfe von Suchanfragen durchgeführt. Dabei wurden Titel und Zusammenfassung der Paper durchsucht.
-Die Suchanfragen sind an den Suchanfragen der SLR von Leite~\cite{leite2013systematic} orientiert und wird durch Suchwörter zu \textit{kontextabhängig} erweitert.
+Die Suchanfragen sind an den Suchanfragen der SLR von Leite et al.~\cite{leite2013systematic} orientiert und wird durch Suchwörter zu \textit{kontextabhängig} erweitert.
 
 Aus der Kombination entstanden 3 Suchblöcke. Der erste Block ist für \textit{kontextabhängig}, der zweite für \textit{Choreographie} und der dritte Block für \textit{Anpassung}. Die verschiedenen Strings aus einer Gruppe sind mit ODER (OR) verbunden. Die Suchblöcke werden mit UND (AND) verbunden. Dadurch entstehen mehrere Anfragen wobei aus jedem Block ein String enthalten sein muss. Daraus wurden sämtliche Möglichkeiten gebildet und auf die jeweiligen Datenquellen (siehe \cref{ss:datenquellen}) angewendet. 
 Die Suchanfrage der vorliegenden Literaturrecherche ist die folgende:\\
@@ -597,15 +600,13 @@ Bei den verbleibenden 89 Ergebnissen wurden die Einschluss- und Ausschlusskriter
 
 
 \subsection{Datenextrahierung}
-Die Daten wurden mithilfe eines automatisierten Suchskriptes extrahiert.
-Jede der Anfragen wurde einzeln auf jeder der genannten Suchmaschinen ausgeführt (siehe \cref{ss:datenquellen}). Die Ergebnisse der einzelnen Suchanfragen wurden jeweils in einer CSV-Datei gespeichert.
-Dabei wurden die folgenden Metadaten extrahiert:
+Bei den automatisierten Suchen werden verschiedene Metadaten über die Ergebnisse gesammelt. Die Daten wurden mithilfe des automatisierten Suchskriptes extrahiert.
+Jede der Anfragen wurde einzeln auf jeder der genannten Suchmaschinen ausgeführt (siehe \cref{ss:datenquellen}). Die Ergebnisse der einzelnen Suchanfragen wurden jeweils in einer einzelnen CSV-Datei gespeichert, wobei für jedes Ergebnis die folgenden Metadaten extrahiert und gespeichert wurden:
 
 \begin{itemize}
 	\item Titel
 	\item Autor(en)
 	\item Veröffentlichungsjahr
-	\item Papertyp
 	\item Link zum Ergebnis
 	\item Link zum PDF
 	\item Zugehörige Suchanfrage
@@ -614,7 +615,7 @@ Dabei wurden die folgenden Metadaten extrahiert:
 	\item Digitale Objekt ID (DOI) des Ergebnisses
 \end{itemize}
 
-Die Ergebnisse der einzelnen Suchfragen wurden anschließend in einer einzelnen CSV-Datei zusammengefasst, wobei 9168 Paper als Ergebnis resultieren. Aufgrund der Suchanfragen auf verschiedenen Suchmaschinen sind darin Duplikate enthalten. Die Duplikate wurden deshalb mit Hilfe von Microsoft Excel aus den Ergebnissen entfernt.
+Die Ergebnisse der einzelnen Suchfragen wurden anschließend in einer einzelnen CSV-Datei zusammengefasst, wobei 9168 Paper als Ergebnis resultieren. Aufgrund der Suchanfragen auf verschiedenen Suchmaschinen sind darin Duplikate enthalten. Die Duplikate wurden deshalb mithilfe von Microsoft Excel aus den Ergebnissen entfernt.
 Nach dem Entfernen der Duplikate bleiben 4435 Ergebnisse übrig.
 
 \subsection{Protokoll Evaluierung und Limitierungen}

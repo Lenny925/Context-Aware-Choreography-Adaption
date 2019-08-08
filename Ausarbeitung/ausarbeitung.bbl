@@ -33,16 +33,16 @@ B.~Kitchenham, O.~P. Brereton, D.~Budgen, M.~Turner, J.~Bailey, and S.~Linkman,
   literature review,'' \emph{Information and software technology}, vol.~51,
   no.~1, pp. 7--15, 2009.
 
+\bibitem{keele2007guidelines}
+C.~S. Kitchenham~B, ``Guidelines for performing systematic literature reviews
+  in software engineering,'' Technical report, Ver. 2.3 EBSE Technical Report.
+  EBSE, Tech. Rep., 2007.
+
 \bibitem{kitchenham2004evidence}
 B.~A. Kitchenham, T.~Dyba, and M.~Jorgensen, ``Evidence-based software
   engineering,'' in \emph{Proceedings of the 26th international conference on
   software engineering}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE Computer
   Society, 2004, pp. 273--281.
-
-\bibitem{keele2007guidelines}
-C.~S. Kitchenham~B, ``Guidelines for performing systematic literature reviews
-  in software engineering,'' Technical report, Ver. 2.3 EBSE Technical Report.
-  EBSE, Tech. Rep., 2007.
 
 \bibitem{leite2013systematic}
 L.~A. Leite, G.~A. Oliva, G.~M. Nogueira, M.~A. Gerosa, F.~Kon, and D.~S.
@@ -185,29 +185,6 @@ L.~Seinturier, P.~Merle, D.~Fournier, N.~Dolet, V.~Schiavoni, and J.-B.
   Stefani, ``Reconfigurable sca applications with the frascati platform,'' in
   \emph{2009 IEEE International Conference on Services Computing}, 2009, pp.
   268--275.
-
-\bibitem{magableh2009pcoms}
-B.~Magableh and S.~Barrett, ``Pcoms: A component model for building
-  context-dependent applications,'' in \emph{2009 Computation World: Future
-  Computing, Service Computation, Cognitive, Adaptive, Content,
-  Patterns}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2009, pp. 44--48.
-
-\bibitem{dustdar2010roadmap}
-S.~Dustdar, C.~Dorn, F.~Li, L.~Baresi, G.~Cabri, C.~Pautasso, and
-  F.~Zambonelli, ``A roadmap towards sustainable self-aware service systems,''
-  in \emph{Proceedings of the 2010 ICSE Workshop on Software Engineering for
-  Adaptive and Self-Managing Systems}.\hskip 1em plus 0.5em minus 0.4em\relax
-  ACM, 2010, pp. 10--19.
-
-\bibitem{kennedy2010decentralised}
-C.~Kennedy, ``Decentralised metacognition in context-aware autonomic systems:
-  some key challenges,'' in \emph{Workshops at the Twenty-Fourth AAAI
-  Conference on Artificial Intelligence}, 2010.
-
-\bibitem{kennedy2003autonomous}
-C.~M. Kennedy and A.~Sloman, ``Autonomous recovery from hostile code insertion
-  using distributed reflection,'' \emph{Cognitive Systems Research}, vol.~4,
-  no.~2, pp. 89--117, 2003.
 
 \bibitem{bharadwaj2005service}
 R.~Bharadwaj, S.~Mukhopadhyay, and N.~Padh, ``Service composition in a secure
