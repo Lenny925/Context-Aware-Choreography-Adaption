@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  9 AUG 2019 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  9 AUG 2019 21:16
 entering extended mode
 **./ausarbeitung.tex
 (ausarbeitung.tex
@@ -353,7 +353,7 @@ LaTeX Font Info:    ... okay on input line 283.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 283.
 LaTeX Font Info:    ... okay on input line 283.
 
--- Lines per column: 58 (approximate, difference = 0.67085pt).
+-- Lines per column: 58 (approximate, difference = 6.36174pt).
 \AtBeginShipoutBox=\box28
 Package hyperref Info: Link coloring OFF on input line 283.
 
@@ -384,14 +384,14 @@ LaTeX Info: Redefining \nameref on input line 283.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* v-part:(T,H,B)=(68.28644pt, 658.39711pt, 68.28644pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=500.484pt
-* \textheight=652.70622pt
+* \textheight=658.39711pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-42.57903pt
+* \topmargin=-45.42447pt
 * \headheight=12.0pt
 * \headsep=29.44092pt
 * \topskip=11.24199pt
@@ -490,7 +490,7 @@ Underfull \hbox (badness 2875) in paragraph at lines 629--630
 sier-te
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 642--642
  \OT1/ptm/b/n/12.045 3. Stra-te-gi-en f[]ur kon-textabh[]anige
  []
@@ -501,26 +501,28 @@ Underfull \hbox (badness 2103) in paragraph at lines 643--645
 afie-
  []
 
-
+[3]
 Underfull \hbox (badness 4792) in paragraph at lines 649--653
 []\OT1/ptm/m/n/10.03749 Narendra und Gun-du-go-la [[]7[]] zei-gen einen An-
  []
 
-[4]
+
+Underfull \vbox (badness 4832) has occurred while \output is active []
+
+ [4]
 Underfull \hbox (badness 3417) in paragraph at lines 674--674
 \OT1/ptm/b/n/11.04124 vice Dis-co-ve-ry through Con-cep-tu-al Si-tua-ti-on
  []
 
-[5]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 Underfull \hbox (badness 1472) in paragraph at lines 697--700
 []\OT1/ptm/m/n/10.03749 Dorn et al.  [[]15[]] stel-len einen An-satz zur kon-
  []
 
-
-Underfull \vbox (badness 2205) has occurred while \output is active []
-
- [6]
-[7]
+[6] [7]
 Underfull \hbox (badness 10000) in paragraph at lines 735--736
 []\OT1/ptm/m/n/10.03749 Der An-satz un-terst[]utzt Funk-tio-na-le und Nicht-
  []
@@ -551,11 +553,10 @@ Underfull \hbox (badness 1655) in paragraph at lines 768--769
 \OT1/ptm/m/n/10.03749 ein Middleware-Ansatz vor-ge-stellt, das auf den Kon-
  []
 
+[10]
+Underfull \vbox (badness 4353) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-[11]
+ [11]
 Underfull \hbox (badness 5050) in paragraph at lines 800--801
 \OT1/ptm/m/n/10.03749 che zur kon-textabh[]angigen An-pas-sung von Service-
  []
@@ -637,11 +638,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 900.
 Here is how much of TeX's memory you used:
  8105 strings out of 492970
  140599 string characters out of 3126150
- 273521 words of memory out of 3000000
+ 274521 words of memory out of 3000000
  11837 multiletter control sequences out of 15000+200000
  43611 words of font info for 78 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 28i,10n,29p,2383b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,10n,29p,2383b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
 c}<C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
@@ -649,7 +650,7 @@ rw/times/utmb8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmbi8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ausarbeitung.pdf (16 pages, 184996 bytes).
+Output written on ausarbeitung.pdf (16 pages, 184736 bytes).
 PDF statistics:
  408 PDF objects out of 1000 (max. 8388607)
  95 named destinations out of 1000 (max. 500000)
