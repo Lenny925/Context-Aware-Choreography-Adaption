@@ -483,10 +483,10 @@ Um den aktuellen Forschungsstand zu erfassen und zu evaluieren wird die systemat
 Das Protokoll zur systematischen Literaturrecherche umfasst alle notwendigen Informationen, wie die Fragestellungen, Suchanfragen oder die Kriterien zur Auswahl der Ergebnisse. Durch das Protokoll ist die Recherche wiederholbar, sodass sich die Ergebnisse jederzeit reproduzieren lassen.
 
 Das Protokoll der systematischen Literaturrecherche wurde auf Basis der Richtlinien von Kitchenham und Charters~\cite{keele2007guidelines} entwickelt und durchgeführt. Für den Aufbau des Protokolls dienten die Protokolle von Kitchenham~\cite{kitchenham2009systematic}, Leite et al.~\cite{leite2013systematic} und Dyba~\cite{dybaa2008empirical} als Vorbild.
-\subsection{Forschungsfragen}
+\subsection{Forschungsfragen}\label{ss:forschungsfragen}
 Bei der Analyse der Ergebnisse wird versucht auf die Forschungsfragen einzugehen, um die Ergebnisse vergleichbar zusammenzufassen.
-Die Forschungsfragen sind an die Fragen der SLR von Leite et al.~\cite{leite2013systematic} orientiert, da diese sich mit Choreograpie-Anpassungen befasst. Dabei wurden die Fragen auf die Thematik der vorliegenden SLR angepasst, sodass auch auf die Kontextabhängigkeit eingegangen wird.
-Dabei wurden folgende Forschungsfragen verwendet:
+Die Forschungsfragen sind an die Fragen der SLR von Leite et al.~\cite{leite2013systematic} orientiert, da diese sich mit Choreograpie-Anpassungen befasst. Die Forschungsfragen RQ1 und RQ2 sind weitgehend von Leite et al.\cite{leite2013systematic} übernommen. Dabei wurden die Fragen auf die Thematik der vorliegenden SLR angepasst, sodass auch auf die Kontextabhängigkeit eingegangen wird.
+Für diese systematische Literaturrecherche wurden die folgenden Forschungsfragen verwendet:
 
 
 \textbf{RQ1}: Welche Strategie zur Anpassung benutzt die ausgewählte Studie für die kontextabhängige Choreographie-Anpassung? 
@@ -626,7 +626,7 @@ Bei Springer Link gibt es keine offizielle API für automatische Suchen. Die Anz
 
 Google Scholar beschränkt die Anzahl der Anfragen. Dies führt bei automatischen Suchen, wie im Rahmen dieser Arbeit, zu einem temporären Bann des Benutzers. Der Bann wird nach dem Crawlen von ungefähr 40 Seiten aktiv. Der Crawler für Google Scholar wurde deswegen auf 10 Seiten pro Suchanfrage begrenzt. Pro Seite werden 10 Ergebnisse angezeigt. Folglich werden für jede Suchanfrage maximal 100 Ergebnisse gecrawlt. 
 
-IEEE Xplore bietet eine API\footnote{\url{https://developer.ieee.org/docs/read/Searching_the_IEEE_Xplore_Metadata_API}} für automatisierte Suchanfragen an.
+IEEE Xplore bietet eine API\footnote{\url{https://developer.ieee.org/docs/read/Searching_the_IEEE_Xplore_Metadata_API}} für automatisierte Suchanfragen an. Dabei ist die Anzahl der Zugriffe limitiert. Für die Suchanfragen dieser Literaturrecherche (siehe \cref{section:suchanfrage}) war diese Limitation allerdings kein Problem, da es für die Anfragen nur wenige Treffer gab.
 
 %\section{Charakterisierung der ausgewählten Studien}
 %Hier kommen allgemeine Sachen über die gefundenen Paper hin. Dies gibt eine Übersicht über die gefundenen Paper. Siehe SLR von Leite\cite{leite2013systematic}.
@@ -642,6 +642,8 @@ IEEE Xplore bietet eine API\footnote{\url{https://developer.ieee.org/docs/read/S
 \section{Strategien für kontextabhänige Choreographie-Anpassung}\label{s:contextAwareResults}
 In diesem Abschnitt werden die gefundenen Ergebnisse aufgeführt, wobei diese im Hinblick auf die Forschungsfragen zusammengefasst werden. Dabei wird zunächst  ein Überblick über die kontextsensitive Choreografie-Adaptionsstrategie gezeigt, der \textbf{RQ1} beantwortet. Anschließend wird die Adaptionsstrategie betrachtet, was \textbf{RQ2} beantwortet. Am Ende wird \textbf{RQ3} beantwortet und die Hauptlimitationen und offenen Forschungsfragen des jeweiligen Ansatzes aufgezeigt.
 Werden Fragen nicht beantwortet bedeutet dies, dass in dem Paper darauf nicht eingegangen wurde.
+
+In den folgenden Unterabschnitten werden die Ergebnisse dieser Literaturrecherche aufgeführt und es wird versucht die Forschungsfragen (siehe \cref{ss:forschungsfragen} für jedes Ergebnis zu beantworten.
 
 \subsection{Automated Context-Aware Adaptation of Web Service Executions}
 Narendra und Gundugola~\cite{narendra2006automated} zeigen einen Ansatz zur Anpassung von zusammengesetzten Web-Service Ausführungen, wobei funktionale Anforderungen angepasst werden (RQ2.1). Dabei zeigen sie, wie die Anpassungen mithilfe von Kontextontologien modelliert werden können. Zur automatischen Anpassung werden Kontextinformationen auf verschiedenen Ebenen der Web-Services identifiziert (RQ2.2). Diese werden in verschiedene Typen klassifiziert: C-Kontext für den zusammengesetzten Service, W-Kontext für den Web-Service Provider und I-Kontext für einzelne Service-Instanzen, die von den Web-Service Providern erstellt werden (RQ2.3)\cite{narendra2006automated}. Anpassungen in einem Web-Service werden immer dann benötigt, wenn sich die Spezifikation einer Komponente ändert~\cite{narendra2006automated}. Dies kann beispielsweise der Austausch eines Services durch einen anderen mit erweiterten Anforderungen sein.
