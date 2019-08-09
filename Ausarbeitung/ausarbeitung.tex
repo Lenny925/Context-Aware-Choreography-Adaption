@@ -484,29 +484,30 @@ Das Protokoll zur systematischen Literaturrecherche umfasst alle notwendigen Inf
 
 Das Protokoll der systematischen Literaturrecherche wurde auf Basis der Richtlinien von Kitchenham und Charters~\cite{keele2007guidelines} entwickelt und durchgeführt. Für den Aufbau des Protokolls dienten die Protokolle von Kitchenham~\cite{kitchenham2009systematic}, Leite et al.~\cite{leite2013systematic} und Dyba~\cite{dybaa2008empirical} als Vorbild.
 \subsection{Forschungsfragen}
-Die Forschungsfragen sind an die Fragen der SLR von Leite et al.~\cite{leite2013systematic} orientiert. Dabei wurden die Fragen auf die Thematik der vorliegenden SLR angepasst.
+Bei der Analyse der Ergebnisse wird versucht auf die Forschungsfragen einzugehen, um die Ergebnisse vergleichbar zusammenzufassen.
+Die Forschungsfragen sind an die Fragen der SLR von Leite et al.~\cite{leite2013systematic} orientiert, da diese sich mit Choreograpie-Anpassungen befasst. Dabei wurden die Fragen auf die Thematik der vorliegenden SLR angepasst, sodass auch auf die Kontextabhängigkeit eingegangen wird.
 Dabei wurden folgende Forschungsfragen verwendet:
 
 
-\textbf{RQ1}: Welche Strategie wählte die ausgewählte Studie für die kontextabhängige Choreographie-Anpassung? 
+\textbf{RQ1}: Welche Strategie zur Anpassung benutzt die ausgewählte Studie für die kontextabhängige Choreographie-Anpassung? 
 
 \textbf{RQ2}: Wie wählt eine ausgewählte Studie ihre Adaptionsstrategie gemäß den folgenden Aspekten aus?
 
-RQ2.1 \textit{Ziel}: Unterstützt die Anpassung funktionale oder nicht funktionale Anforderungen?
+RQ2.1 \textit{Ziel}: Unterstützt die kontextabhänige Anpassung der Choreographie funktionale oder nicht funktionale Anforderungen?
 %Funktional beschreiben gewünschte Funktionalitäten
 % Nichtfunktionale Sind Anforderungen an die Qualität welche die geforderte Funktionalität erbringen muss
 
-RQ2.2 \textit{Erforderlicher Eingriffsgrad}: Wird die Anpassung automatisch durchgeführt? Oder ist menschliches Eingreifen notwendig?
+RQ2.2 \textit{Erforderlicher Eingriffsgrad}: Wird die kontextabhänige Anpassung der Choreographie automatisch durchgeführt oder ist menschliches Eingreifen notwendig?
 
 RQ2.3 \textit{Kontextsensitivität}: Welchen Kontext bezieht die Choreographie-Anpassungs-Strategie in ihre Entscheidungsfindung mit ein? Wie stark wird die Entscheidungsfindung durch den Kontext beeinflusst?
 
-RQ2.4 \textit{Auswirkungen auf die Skalierbarkeit}: Ist die Strategie für die Skalierbarkeit der Choreographie diskutiert? Ist eine solche Diskussion informell oder sind formale Beweise oder Experimente enthalten?
+RQ2.4 \textit{Auswirkungen auf die Skalierbarkeit}: Wird der Einfluss auf die Skalierbarkeit der Choreographie diskutiert? Falls ja, ist es informell oder sind formale Beweise oder Experimente enthalten?
 
-RQ2.5 \textit{Implementierungen}: Wird der vorgestellte Ansatz von einem Tool oder Prototyp implementiert? Ist die Implementierung des Systems verfügbar? Wenn ja, ist es Open-Source-Software?
+RQ2.5 \textit{Implementierungen}: Wird der vorgestellte Ansatz von einem Tool oder Prototyp implementiert und ist die Implementierung des Systems verfügbar? Falls ja, ist es Open-Source-Software?
 
-RQ2.6 \textit{Zugrundeliegende Modelle}: Welche Modelle oder Standards werden in der Strategie verwendet?
+RQ2.6 \textit{Zugrundeliegende Modelle}: Welche Modelle oder Standards werden in dem Ansatz verwendet?
 
-\textbf{RQ3}: Was sind die Hauptlimitationen und offene Forschungsfragen der Ansätze von \glqq kontextabhäniger Choreographie Anpassung \grqq?
+\textbf{RQ3}: Was sind die Hauptlimitationen und offenen Forschungsfragen der Ansätze von \glqq kontextabhängiger Choreographie-Anpassung \grqq?
 
 %Alternative Fragen:
 %
@@ -639,19 +640,19 @@ IEEE Xplore bietet eine API\footnote{\url{https://developer.ieee.org/docs/read/S
 %In welche Kategorie kann man die Paper einordnen?
 
 \section{Strategien für kontextabhänige Choreographie-Anpassung}\label{s:contextAwareResults}
-In diesem Abschnitt werden die gefundenen Ergebnisse aufgeführt, wobei diese im Hinblick auf die Forschungsfragen zusammengefasst werden. Dabei wird zunächst  ein Überblick über die kontextsensitive Choreografie-Adaptionsstrategie gezeigt, der \textbf{RQ1} beantwortet. Anschließend werden die Adaptionsstrategie betrachtet, was \textbf{RQ2} beantwortet. Am Ende wird \textbf{RQ3} beantwortet und die Hauptlimitationen und offenen Forschungsfragen des jeweiligen Ansatzes aufgezeigt.
+In diesem Abschnitt werden die gefundenen Ergebnisse aufgeführt, wobei diese im Hinblick auf die Forschungsfragen zusammengefasst werden. Dabei wird zunächst  ein Überblick über die kontextsensitive Choreografie-Adaptionsstrategie gezeigt, der \textbf{RQ1} beantwortet. Anschließend wird die Adaptionsstrategie betrachtet, was \textbf{RQ2} beantwortet. Am Ende wird \textbf{RQ3} beantwortet und die Hauptlimitationen und offenen Forschungsfragen des jeweiligen Ansatzes aufgezeigt.
 Werden Fragen nicht beantwortet bedeutet dies, dass in dem Paper darauf nicht eingegangen wurde.
 
 \subsection{Automated Context-Aware Adaptation of Web Service Executions}
-Narendra und Gundugola~\cite{narendra2006automated} zeigen einen Ansatz zur Anpassung von zusammengesetzten Web-Service Ausführungen, wobei funktionale Anforderungen angepasst werden (RQ2.1). Dabei zeigen sie, wie die Anpassungen mithilfe von Kontextontologien modelliert werden können. Zur automatischen Anpassung werden Kontextinformationen auf verschiedenen Ebenen der Web-Services identifiziert (RQ2.2). Diese werden in verschiedene Typen klassifiziert: C-Kontext für den zusammengesetzten Service, W-Kontext für den Web-Service Provider und I-Kontext für einzelne Service-Instanzen, die von den Web-Service Providern erstellt werden (RQ2.3)\cite{narendra2006automated}. Anpassungen in einem Web Service werden immer dann benötigt, wenn sich die Spezifikation einer Komponente ändert~\cite{narendra2006automated}. Dies kann beispielsweise der Austausch eines Services durch einen anderen mit erweiterten Anforderungen sein.
+Narendra und Gundugola~\cite{narendra2006automated} zeigen einen Ansatz zur Anpassung von zusammengesetzten Web-Service Ausführungen, wobei funktionale Anforderungen angepasst werden (RQ2.1). Dabei zeigen sie, wie die Anpassungen mithilfe von Kontextontologien modelliert werden können. Zur automatischen Anpassung werden Kontextinformationen auf verschiedenen Ebenen der Web-Services identifiziert (RQ2.2). Diese werden in verschiedene Typen klassifiziert: C-Kontext für den zusammengesetzten Service, W-Kontext für den Web-Service Provider und I-Kontext für einzelne Service-Instanzen, die von den Web-Service Providern erstellt werden (RQ2.3)\cite{narendra2006automated}. Anpassungen in einem Web-Service werden immer dann benötigt, wenn sich die Spezifikation einer Komponente ändert~\cite{narendra2006automated}. Dies kann beispielsweise der Austausch eines Services durch einen anderen mit erweiterten Anforderungen sein.
 Als Beispiel für die Workflow-Anpassung wird die Ausnahmebehandlung genannt, die sich mit Mechanismen zur Wiederherstellung des Zustands des Workflows im Falle eines Fehlers während der Workflow-Ausführung befasst \cite{narendra2006automated}. Dieser Fall tritt ein, wenn eine der Web-Service-Komponenten nicht ausgeführt wird~\cite{narendra2006automated}.
 Zur automatischen Anpassung werden Sphären verwendet, welche eine Sammlung von Aufgaben repräsentieren, die entweder komplett oder überhaupt nicht ausgeführt werden~\cite{narendra2006automated}. Sphären werden mit einem Algorithmus identifiziert. Der Algorithmus zur Anpassung des Workflows, spiegelt die Rückwärtsbewegungen des Sphären-Bestimmungsalgorithmus wider \cite{narendra2006automated}.
-Der Ansatz soll in Zukunft noch in einem Prototyp implementiert werden, um die Machbarkeit zu beweisen (RQ2.5). Außerdem sollen die Anpassungstechnik weiter erweitert werden, um weiteren Kontext einzubeziehen (RQ3).
+Der Ansatz soll in Zukunft noch in einem Prototyp implementiert werden, um die Machbarkeit zu beweisen (RQ2.5). Außerdem soll die Strategie zur Anpassung weiter erweitert werden, um weiteren Kontext einzubeziehen (RQ3).
 
 \subsection{Modeling of Context-Aware Self-Adaptive Applications in Ubiquitous and Service-Oriented Environments}
 Der Ansatz von Geihs et al.~\cite{geihs2009modeling} zielt auf Umgebungen mit dynamisch verfügbaren Diensten ab, die von Anwendungen genutzt werden können. Dabei ist das Ziel die Anpassung der funktionalen Anforderungen (RQ2.1). Die Anpassungsentscheidungen hängen dabei nicht nur von den Kontext-Eigenschaften ab, sondern auch von der Verfügbarkeit der Dienste (RQ2.3). Um Dienste dynamisch anzupassen, muss der Adaptionsansatz verschiedene Anforderungen erfüllen. Dazu gehören die Variabilität der Anwendung, eine dynamische Serviceerkennung, Heterogenität und die Integration von Service- und Kontext-Eigenschaften in die Planung~\cite{geihs2009modeling}.
-Zur Adaption werden bei einem signifikanten Kontextwechsel alle verfügbaren Anwendungsvarianten von der Middleware ausgewertet und auf Basis verschiedener QoS-Metadaten verglichen, die den beteiligten Komponentenrealisierungen zugeordnet sind~\cite{geihs2009modeling}. Komponententypen sind Variationspunkte, die einer bestimmten Teilefunktionalität der Anwendung entsprechen. Die Komponententypen werden rekursiv ausgewählt und der Prozess wird gestoppt, wenn ein atomarer Realisierungsplan ausgewählt wurde.
-Wenn Dienste für die Middleware nicht mehr verfügbar sind, wird der Realisierungsplan verworfen und ein neuer Anpassungsprozess wird ausgelöst~\cite{geihs2009modeling}.
+Zur Adaption werden bei einem signifikanten Kontextwechsel alle verfügbaren Anwendungsvarianten von der Middleware ausgewertet und auf Basis verschiedener QoS-Metadaten verglichen, die den beteiligten Komponenten zugeordnet sind~\cite{geihs2009modeling}. Komponententypen sind Variationspunkte, die einer bestimmten Teilefunktionalität der Anwendung entsprechen. Die Komponententypen werden rekursiv ausgewählt und der Prozess wird gestoppt, wenn ein atomarer Realisierungsplan ausgewählt wurde.
+Wenn Dienste für die Middleware nicht mehr verfügbar sind, wird der Realisierungsplan verworfen und ein neuer Anpassungsprozess wird gestartet~\cite{geihs2009modeling}.
 Der Ansatz ist bereits teilweise implementiert und wurde verwendet, um erste Prototypen zu implementieren (RQ2.5). Weitere Forschungsmöglichkeiten gibt es im Bezug auf Performance und Skalierbarkeit (RQ3).
 
 \subsection{Semantic Web Service Adaptation Model for a Pervasive Learning Scenario}
