@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  9 AUG 2019 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  10 AUG 2019 12:34
 entering extended mode
 **./ausarbeitung.tex
 (ausarbeitung.tex
@@ -335,27 +335,116 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@dimlist=\toks16
 
 ("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
-.cfg")) (ausarbeitung.aux)
+.cfg"))
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
+hics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdft
+ex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjustb
+ox.sty"
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.s
+ty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval
+.tex"
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutil
+s.tex"
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+)
+\XKV@depth=\count110
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjcalc
+.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\trimcli
+p.sty"
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\collec
+tbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box28
+)
+\tc@llx=\dimen141
+\tc@lly=\dimen142
+\tc@urx=\dimen143
+\tc@ury=\dimen144
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pdft
+ex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen145
+\adjbox@Height=\dimen146
+\adjbox@Depth=\dimen147
+\adjbox@Totalheight=\dimen148
+\adjbox@pwidth=\dimen149
+\adjbox@pheight=\dimen150
+\adjbox@pdepth=\dimen151
+\adjbox@ptotalheight=\dimen152
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpa
+ge.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count111
+)
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidth
+.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box29
+\sift@deathcycles=\count112
+\@vwid@loff=\dimen153
+\@vwid@roff=\dimen154
+)) (ausarbeitung.aux)
 \openout1 = `ausarbeitung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 283.
-LaTeX Font Info:    ... okay on input line 283.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 283.
-LaTeX Font Info:    ... okay on input line 283.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 283.
-LaTeX Font Info:    ... okay on input line 283.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 283.
-LaTeX Font Info:    ... okay on input line 283.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 283.
-LaTeX Font Info:    ... okay on input line 283.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 283.
-LaTeX Font Info:    ... okay on input line 283.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 283.
-LaTeX Font Info:    ... okay on input line 283.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
 
 -- Lines per column: 58 (approximate, difference = 6.36174pt).
-\AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 283.
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring OFF on input line 291.
 
 ("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.
 sty"
@@ -365,11 +454,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 lestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count110
+\c@section@level=\count113
 )
-LaTeX Info: Redefining \ref on input line 283.
-LaTeX Info: Redefining \pageref on input line 283.
-LaTeX Info: Redefining \nameref on input line 283.
+LaTeX Info: Redefining \ref on input line 291.
+LaTeX Info: Redefining \pageref on input line 291.
+LaTeX Info: Redefining \nameref on input line 291.
  (ausarbeitung.out) (ausarbeitung.out)
 \@outlinefile=\write3
 \openout3 = `ausarbeitung.out'.
@@ -409,100 +498,131 @@ LaTeX Info: Redefining \nameref on input line 283.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 347.
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
+kii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count114
+\scratchdimen=\dimen155
+\scratchbox=\box31
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen156
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks20
+)
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
+-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
+ty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.jpeg,.png,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 355.
+
 
 ("C:\Users\Markus\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05249> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 347.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 355.
  [1{C:/Users/Markus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 2197) in paragraph at lines 511--512
+Underfull \hbox (badness 2197) in paragraph at lines 519--520
 \OT1/ptm/m/n/10.03749 For-schungs-fra-gen der Ans[]atze von []kon-textabh[]angi
 ger
  []
 
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 52
-5.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 53
+3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.03749> on input line 525.
+(Font)              <10.03749> on input line 533.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.0262> on input line 525.
+(Font)              <7.0262> on input line 533.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.01874> on input line 525.
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 525.
+(Font)              <5.01874> on input line 533.
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 533.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.03> on input line 525.
+(Font)              <8.03> on input line 533.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.62097> on input line 525.
+(Font)              <5.62097> on input line 533.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.015> on input line 525.
+(Font)              <4.015> on input line 533.
 
-Underfull \hbox (badness 3679) in paragraph at lines 533--569
+Underfull \hbox (badness 3679) in paragraph at lines 541--577
 \OT1/ptm/m/n/10.03749 wur-den Ti-tel und Zu-sam-men-fas-sung der ge-fun-de-nen
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 533--569
+Underfull \hbox (badness 5008) in paragraph at lines 541--577
 \OT1/ptm/m/n/10.03749 zu \OT1/ptm/m/it/10.03749 kon-textabh[]angig \OT1/ptm/m/n
 /10.03749 er-wei-tert. Aus der Kom-bi-na-ti-on
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 533--569
+Underfull \hbox (badness 5563) in paragraph at lines 541--577
 \OT1/ptm/m/n/10.03749 ent-stan-den 3 Such-bl[]ocke. Der ers-te Block ist f[]ur
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 533--569
+Underfull \hbox (badness 2142) in paragraph at lines 541--577
 \OT1/ptm/m/n/10.03749 ent-ste-hen meh-re-re An-fra-gen wo-bei aus je-dem Block
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 533--569
+Underfull \hbox (badness 4378) in paragraph at lines 541--577
 \OT1/ptm/m/n/10.03749 Da-ten-quel-len (sie-he Ab-schnitt []2.2[]) an-ge-wen-det
 . Die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--569
+Underfull \hbox (badness 10000) in paragraph at lines 541--577
 
  []
 
 [2]
-Overfull \hbox (7.91078pt too wide) in paragraph at lines 623--623
+Overfull \hbox (7.91078pt too wide) in paragraph at lines 631--631
 [][][][][]$\OT1/ptm/m/n/8.03 https : / / github . com / Lenny925 / Context-[]Aw
 are-[]Choreography-[]Adaptation$[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--629
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
 [][][][][]$\OT1/ptm/m/n/8.03 https : / / developer . ieee . org / docs / read /
  Searching[]the[]IEEE[]Xplore[]
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 629--630
+Underfull \hbox (badness 2875) in paragraph at lines 637--638
 []\OT1/ptm/m/n/10.03749 IEEE Xplo-re bie-tet ei-ne API[][][] f[]ur au-to-ma-ti-
 sier-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 642--642
+Underfull \hbox (badness 10000) in paragraph at lines 650--650
  \OT1/ptm/b/n/12.045 3. Stra-te-gi-en f[]ur kon-textabh[]anige
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 643--645
+Underfull \hbox (badness 2103) in paragraph at lines 651--653
 \OT1/ptm/m/n/10.03749 ein []Uberblick []uber die kon-text-sen-si-ti-ve Choreogr
 afie-
  []
 
 [3]
-Underfull \hbox (badness 4792) in paragraph at lines 649--653
+Underfull \hbox (badness 4792) in paragraph at lines 657--661
 []\OT1/ptm/m/n/10.03749 Narendra und Gun-du-go-la [[]7[]] zei-gen einen An-
  []
 
@@ -510,46 +630,46 @@ Underfull \hbox (badness 4792) in paragraph at lines 649--653
 Underfull \vbox (badness 4832) has occurred while \output is active []
 
  [4]
-Underfull \hbox (badness 3417) in paragraph at lines 674--674
+Underfull \hbox (badness 3417) in paragraph at lines 682--682
 \OT1/ptm/b/n/11.04124 vice Dis-co-ve-ry through Con-cep-tu-al Si-tua-ti-on
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-Underfull \hbox (badness 1472) in paragraph at lines 697--700
+[5]
+Underfull \hbox (badness 1472) in paragraph at lines 705--708
 []\OT1/ptm/m/n/10.03749 Dorn et al.  [[]15[]] stel-len einen An-satz zur kon-
  []
 
 [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 735--736
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
 []\OT1/ptm/m/n/10.03749 Der An-satz un-terst[]utzt Funk-tio-na-le und Nicht-
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 735--736
+Underfull \hbox (badness 5036) in paragraph at lines 743--744
 \OT1/ptm/m/n/10.03749 Funktionale An-for-de-run-gen (RQ2.1) und funk-tio-niert
  []
 
 
-Underfull \hbox (badness 3623) in paragraph at lines 735--736
+Underfull \hbox (badness 3623) in paragraph at lines 743--744
 \OT1/ptm/m/n/10.03749 Ein Pro-to-typ ist nicht vor-han-den, je-doch an-ge-dacht
 
  []
 
 [8]
-Underfull \hbox (badness 1436) in paragraph at lines 740--741
+Underfull \hbox (badness 1436) in paragraph at lines 748--749
 \OT1/ptm/m/n/10.03749 Die Aus-wahl der Re-geln er-folgt ma-nu-ell oder durch
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 767--767
+
+Underfull \vbox (badness 1371) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
  \OT1/ptm/b/n/11.04124 3.21. Midd-le-wa-re for ubi-qui-tous context-
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 768--769
+Underfull \hbox (badness 1655) in paragraph at lines 776--777
 \OT1/ptm/m/n/10.03749 ein Middleware-Ansatz vor-ge-stellt, das auf den Kon-
  []
 
@@ -557,12 +677,12 @@ Underfull \hbox (badness 1655) in paragraph at lines 768--769
 Underfull \vbox (badness 4353) has occurred while \output is active []
 
  [11]
-Underfull \hbox (badness 5050) in paragraph at lines 800--801
+Underfull \hbox (badness 5050) in paragraph at lines 808--809
 \OT1/ptm/m/n/10.03749 che zur kon-textabh[]angigen An-pas-sung von Service-
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 800--801
+Underfull \hbox (badness 1412) in paragraph at lines 808--809
 \OT1/ptm/m/n/10.03749 Choreographien er-neut durch-gef[]uhrt wer-den, um neue
  []
 
@@ -620,29 +740,29 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 900.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 928.
 [16
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 900.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 928.
  (ausarbeitung.aux
-Package cleveref Info: loaded `ngerman' language definitions on input line 24.
+Package cleveref Info: loaded `ngerman' language definitions on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 900.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 900.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 928.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 928.
 Package rerunfilecheck Info: File `ausarbeitung.out' has not changed.
 (rerunfilecheck)             Checksum: 0806DD20FDDEF3342B041EDF7E28C5A4;3349.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 900.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 928.
  ) 
 Here is how much of TeX's memory you used:
- 8105 strings out of 492970
- 140599 string characters out of 3126150
- 274521 words of memory out of 3000000
- 11837 multiletter control sequences out of 15000+200000
+ 9877 strings out of 492970
+ 168623 string characters out of 3126150
+ 281742 words of memory out of 3000000
+ 13546 multiletter control sequences out of 15000+200000
  43611 words of font info for 78 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 28i,10n,29p,2383b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,10n,65p,2383b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
 c}<C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
@@ -650,9 +770,9 @@ rw/times/utmb8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmbi8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ausarbeitung.pdf (16 pages, 184736 bytes).
+Output written on ausarbeitung.pdf (16 pages, 184477 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
+ 409 PDF objects out of 1000 (max. 8388607)
  95 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
