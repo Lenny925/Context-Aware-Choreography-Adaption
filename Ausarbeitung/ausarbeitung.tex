@@ -356,9 +356,9 @@ Universität Stuttgart}}
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-Eine Service-Choreographie sind mehrere Services, welche sich dezentral organisieren indem die einzelnen Services miteinander kommunizieren. Um sich ändernden Anforderungen anzupassen und die Servicequalität zu erhöhen werden Strategien zur Anpassung von Service-Choreographien benötigt.
+Eine Service-Choreographie sind mehrere Services, welche sich dezentral organisieren, indem die einzelnen Services miteinander kommunizieren. Um sich ändernden Anforderungen anzupassen und die Servicequalität zu erhöhen werden Strategien zur Anpassung von Service-Choreographien benötigt.
 Das Ziel dieser systematischen Literaturrecherche ist es den aktuellen Forschungsstand zu kontextabhängiger Anpassung von Service-Choreographien zusammenzufassen. Dabei wird das Vorgehen protokolliert, was die Reproduzierbarkeit dieser Literaturrecherche erhöht. Dabei wurden die Suchanfragen automatisiert auf mehreren Suchmaschinen ausgeführt. Insgesamt wurden 22
-themenrelevante Ergebnisse gefunden. Dabei wurde für jedes Ergebnis zusammengefasst, welche Adaptionsstrategie verwendet wird. Außerdem wurde zusammengefasst, wie die Adaption durchgeführt wird, wobei auf Ziel, erforderlichen Eingriffsgrad, Kontextsensitivität, Auswirkungen auf die Skalierbarkeit, bestehende Implementierungen und zugrundeliegende Modelle eingegangen wird. Zudem werden bestehende Limitationen zusammengefasst.
+themenrelevante Ergebnisse gefunden. Dabei wurde für jedes Ergebnis zusammengefasst, welche Adaptionsstrategie verwendet wird. Außerdem wurde zusammengefasst, wie die Adaption durchgeführt wird, wobei auf Ziel, erforderlichen Eingriffsgrad, Kontextsensitivität, Auswirkungen auf die Skalierbarkeit, bestehende Implementierungen und zugrundeliegende Modelle eingegangen wird. Zudem werden bestehende Limitationen der Ansätze zusammengefasst.
 \end{abstract}
 
 % no keywords
@@ -493,8 +493,8 @@ Das Protokoll zur systematischen Literaturrecherche umfasst alle notwendigen Inf
 
 Das Protokoll der systematischen Literaturrecherche wurde auf Basis der Richtlinien von Kitchenham und Charters~\cite{keele2007guidelines} entwickelt und durchgeführt. Für den Aufbau des Protokolls dienten die Protokolle von Kitchenham~\cite{kitchenham2009systematic}, Leite et al.~\cite{leite2013systematic} und Dyba~\cite{dybaa2008empirical} als Vorbild.
 \subsection{Forschungsfragen}\label{ss:forschungsfragen}
-Bei der Analyse der Ergebnisse wird versucht auf die Forschungsfragen einzugehen, um die Ergebnisse vergleichbar zusammenzufassen.
-Die Forschungsfragen sind an die Fragen der Literaturrecherche von Leite et al.~\cite{leite2013systematic} orientiert, da diese sich mit Choreograpie-Anpassungen befasst. Die Forschungsfragen RQ1 und RQ2 sind weitgehend von Leite et al.\cite{leite2013systematic} übernommen. Dabei wurden die Fragen auf die Thematik der vorliegenden SLR angepasst, sodass auch auf die Kontextabhängigkeit eingegangen wird.
+Bei der Analyse und Zusammenfassung der Ergebnisse wird versucht vorher definierte Forschungsfragen zu beantworten, um die Ergebnisse vergleichbar darzustellen.
+Die Forschungsfragen sind an den Fragen der Literaturrecherche von Leite et al.~\cite{leite2013systematic} orientiert, da diese sich mit Strategien zur Anpassung von Service-Choreograpien befasst. Die Forschungsfragen RQ1 und RQ2 sind weitgehend von Leite et al.\cite{leite2013systematic} übernommen, wobei die Fragen auf die Thematik der vorliegenden SLR angepasst wurden, sodass auch auf die Kontextabhängigkeit eingegangen wird.
 Für diese systematische Literaturrecherche wurden die folgenden Forschungsfragen verwendet:
 
 
@@ -530,62 +530,62 @@ RQ2.6 \textit{Zugrundeliegende Modelle}: Welche Modelle oder Standards werden in
 
 
 \subsection{Datenquellen}\label{ss:datenquellen}
-Die Ergebnisse wurden aus verschiedenen öffentlichen Datenquellen extrahiert. Als Datenquellen für die Suche wurden die folgenden wissenschaftlichen Quellen mit einer definierten Zeichenabfolge (siehe \cref{section:suchanfrage} durchsucht: IEEE Xplore\footnote{\url{https://ieeexplore.ieee.org/Xplore/home.jsp}} SpringerLink\footnote{\url{https://link.springer.com/}} und Google Scholar\footnote{\url{https://scholar.google.de/}}
+Die Ergebnisse wurden aus verschiedenen öffentlichen Datenquellen extrahiert. Als Datenquellen für die Suche wurden die folgenden wissenschaftlichen Quellen mit einer definierten Zeichenabfolge (siehe \cref{section:suchanfrage}) durchsucht: IEEE Xplore\footnote{\url{https://ieeexplore.ieee.org/Xplore/home.jsp}} SpringerLink\footnote{\url{https://link.springer.com/}} und Google Scholar\footnote{\url{https://scholar.google.de/}}
 
 Um die Reproduzierbarkeit der durchgeführten systematischen Literaturrecherche zu gewährleisten, wurde der Suchprozess durch Skripte automatisiert. Dazu wurden die
-genannten Datenquellen mit einem Python Skript durchsucht.
+genannten Datenquellen mit einem Python Skript durchsucht \footnote{\url{https://github.com/Lenny925/Context-Aware-Choreography-Adaptation}}.
 
 
 \subsection{Abfragezeichenfolge}
 \label{section:suchanfrage}
 Die Suchen auf den Datenquellen (siehe \cref{ss:datenquellen}) wurden mithilfe von Suchanfragen durchgeführt. Dabei wurden Titel und Zusammenfassung der gefundenen Ergebnisse durchsucht.
 Die Suchanfragen sind an den Suchanfragen der systematischen Literaturrecherche von Leite et al.~\cite{leite2013systematic} orientiert und wurden um Suchwörter zu \textit{kontextabhängig} erweitert.
-Aus der Kombination entstanden 3 Suchblöcke. Der erste Block ist für \textit{kontextabhängig}, der zweite für \textit{Choreographie} und der dritte Block für \textit{Anpassung}. Die Suchwörter aus dem zweiten und dritten Block sind aus der Literaturrecherche von Leite et al.~\cite{leite2013systematic}. Die verschiedenen Zeichenfolgen aus einer Gruppe sind mit ODER (OR) verbunden. Die Suchblöcke werden mit UND (AND) verbunden. Dadurch entstehen mehrere Anfragen wobei aus jedem Block eine Zeichenfolge enthalten sein muss. Daraus wurden sämtliche Möglichkeiten gebildet und auf die jeweiligen Datenquellen (siehe \cref{ss:datenquellen}) angewendet. 
-Die Suchanfrage der vorliegenden Literaturrecherche ist die folgende:\\
-(\\
+Aus der Kombination entstanden 3 Suchblöcke. Der erste Block ist für \textit{kontextabhängig}, der zweite für \textit{Choreographie} und der dritte Block für \textit{Anpassung}. Die Suchwörter aus dem zweiten und dritten Block sind aus den Suchanfragen der Literaturrecherche von Leite et al.~\cite{leite2013systematic}. Die verschiedenen Zeichenfolgen aus einer Gruppe sind mit ODER (OR) verbunden. Die Suchblöcke werden mit UND (AND) verbunden. Dadurch entstehen mehrere Anfragen wobei aus jedem Block eine Zeichenfolge enthalten sein muss. Daraus wurden sämtliche Möglichkeiten gebildet und auf die jeweiligen Datenquellen (siehe \cref{ss:datenquellen}) ausgeführt. 
+Für diese Literaturrecherche wurden die folgenden Suchanfragen verwendet:\\ \\
+(
 %- Context-aware computing\\
-	\glqq Context-aware\grqq~OR\\
+	\glqq context-aware\grqq~OR\\
 %- Context-specific computing\\
-	\glqq Context-specific\grqq~OR\\
+	\glqq context-specific\grqq~OR\\
 %- Context-dependent computing\\
-	\glqq Context-dependent\grqq~OR\\
+	\glqq context-dependent\grqq~OR\\
 %- Context-sensitive computing\\
-	\glqq Context-sensitiv\grqq~OR\\
+	\glqq context-sensitiv\grqq~OR\\
 %- Situation-aware computing\\
-	\glqq Situation-aware\grqq \\
+	\glqq situation-aware\grqq 
 %"location" OR\\
 %"situational" OR\\
 %"environment" OR
 )\\
 AND\\
 ab hier vgl. Leite et al.~\cite{leite2013systematic} \\
- (\\
+ (
 \glqq choreography\grqq~OR\\
 \glqq decentralized composition\grqq~OR\\
 \glqq decentralized service composition\grqq~OR\\
-\glqq distributed composition\grqq\\
+\glqq distributed composition\grqq
 ) \\
 AND\\
-(\\
+(
 \glqq adapt*\grqq~OR\\
 \glqq self-config*\grqq~OR\\
 \glqq auto-config*\grqq~OR\\
 \glqq reconfig*\grqq~OR\\
 \glqq sensitiv\grqq~OR\\
-\glqq behaviour\grqq\\
+\glqq behaviour\grqq
 )\\
 
 \subsection{Einschluss und Ausschluss Kriterien}
-Da nicht jedes Ergebnis zum Thema passt, werden die Ergebnisse der Suche manuell überprüft. Dabei werden nur Paper in die Ergebnisse der systematischen Literaturrecherche aufgenommen, die sich mit der kontextabhängigen Anpassung von Servicechoreografien befassen. Dabei werden Ergebnisse ausgeschlossen, die keinen Kontext in die Anpassungsstrategie einbeziehen, oder für Orchestrationen sind. Die kontextabhängige Anpassung einzelner Services wird auch ausgeschlossen, da der Fokus auf Choreografien mehrerer Services liegt.
+Da nicht jedes Ergebnis zum Thema passt, werden die Ergebnisse der Suche manuell überprüft. Dabei werden nur Paper in die Ergebnisse der systematischen Literaturrecherche aufgenommen, die sich mit der kontextabhängigen Anpassung von Service-Choreografien befassen. Dabei werden Ergebnisse ausgeschlossen, die keinen Kontext in die Anpassungsstrategie einbeziehen, oder für Orchestrationen sind. Die kontextabhängige Anpassung einzelner Services wird auch ausgeschlossen, da der Fokus auf Choreografien mehrerer Services liegt.
 
 Die gefundenen Ergebnisse durchlaufen, wie in Tabelle \ref{tabelle:auswahlverfahren} gezeigt, mehrere Schritte, wobei passende Ergebnisse ausgewählt werden. Nach der automatisierten Suche waren nach Entfernen der Duplikate insgesamt 4435 Ergebnisse vorhanden. Die Duplikate wurde mithilfe von Microsoft Excel über den Titel der Ergebnisse aussortiert.
 
 Nach dem Entfernen der Duplikate wurden die Ergebnisse auf Basis des Veröffentlichungsjahres und nach der Anzahl der Zitationen vorgefiltert.
 Alle Paper vor dem Jahr 2000 wurden ausgeschlossen. Für die Jahre 2000-2010 wurden mindestens 10 Zitationen als Einschlusskriterium verwendet. Für das Jahr 2011 wurden mindestens 9 Zitationen, für das Jahr 2012 mindestens 8 Zitationen, für das Jahr 2013 mindestens 7 Zitationen, für das Jahr 2014 mindestens 6 Zitationen, für das Jahr 2015 mindestens 5 Zitationen, für das Jahr 2016 mindestens 4 Zitationen, für das Jahr 2017 mindestens 3 Zitationen, für das Jahr 2018 mindestens 2 Zitationen und für das Jahr 2019 mindestens 1 Ziation vorausgesetzt. Als Ergebnis blieben 2722 Ergebnisse übrig.
 
-Die verbleibenden Ergebnisse wurden manuell weiter sortiert. Dabei wurden die vorher festgelegte Einschluss- und Ausschlusskriterien entsprechend der Suchanfrage aus Kapitel \ref{section:suchanfrage} auf die Titel der Ergebnisse und im Zweifelsfall auf die Zusammenfassung angewendet, um die Zahl weiter zu reduzieren. Als Resultat blieben 89 Ergebnisse übrig.
+Da nicht jedes Ergebnis themenrelevant ist, wurden die verbleibenden Ergebnisse manuell weiter sortiert. Dazu wurden die zu Anfang dieses Abschnittes festgelegte Einschluss- und Ausschlusskriterien auf die Titel der Ergebnisse und im Zweifelsfall auf die Zusammenfassung angewendet. Als Resultat blieben 89 Ergebnisse übrig.
 
-Bei den verbleibenden 89 Ergebnissen wurden die Einschluss- und Ausschlusskriterien auf den ganzen Text angewendet. Daraus resultieren die Ergebnisse der vorliegenden systematischen Literaturrecherche. Die Ergebnisse werden in Abschnitt \ref{s:contextAwareResults} zusammengefasst.
+Bei den verbleibenden 89 Ergebnissen wurden die Einschluss- und Ausschlusskriterien auf den ganzen Text angewendet. Daraus resultieren die Ergebnisse der vorliegenden systematischen Literaturrecherche. Die Ergebnisse werden in \cref{s:contextAwareResults} zusammengefasst.
 
 \begin{table}[h]
 	\caption{Studienauswahlverfahren}
@@ -610,7 +610,7 @@ Bei den verbleibenden 89 Ergebnissen wurden die Einschluss- und Ausschlusskriter
 
 \subsection{Datenextrahierung}
 Bei den automatisierten Suchen werden verschiedene Metadaten über die Ergebnisse gesammelt. Die Daten wurden mithilfe des automatisierten Suchskriptes extrahiert.
-Jede der Anfragen wurde einzeln auf jeder der genannten Suchmaschinen ausgeführt (siehe \cref{ss:datenquellen}). Die Ergebnisse der einzelnen Suchanfragen wurden jeweils in einer einzelnen CSV-Datei gespeichert, wobei für jedes Ergebnis die folgenden Metadaten extrahiert und gespeichert wurden:
+Jede der Anfragen wurde einzeln auf jeder der genannten Suchmaschinen ausgeführt (siehe \cref{ss:datenquellen}). Die Ergebnisse der einzelnen Suchanfragen wurden jeweils in einer separaten CSV-Datei gespeichert, wobei für jedes Ergebnis die folgenden Metadaten extrahiert und gespeichert wurden:
 
 \begin{itemize}
 	\item Titel
@@ -624,8 +624,8 @@ Jede der Anfragen wurde einzeln auf jeder der genannten Suchmaschinen ausgeführ
 	\item Digitale Objekt ID (DOI) des Ergebnisses
 \end{itemize}
 
-Die Ergebnisse der einzelnen Suchfragen wurden anschließend in einer einzelnen CSV-Datei zusammengefasst, wobei 9168 Paper als Ergebnis resultieren. Aufgrund der Suchanfragen auf verschiedenen Suchmaschinen sind darin Duplikate enthalten. Die Duplikate wurden deshalb mithilfe von Microsoft Excel aus den Ergebnissen entfernt.
-Nach dem Entfernen der Duplikate bleiben 4435 Ergebnisse übrig.
+Die Ergebnisse der einzelnen Suchfragen wurden anschließend in einer einzelnen CSV-Datei zusammengefasst, wobei 9168 Paper als Ergebnis resultieren. Da die Suchanfragen auf verschiedenen Suchmaschinen ausgeführt wurden, sind in den Ergebnissen Duplikate enthalten. Die Duplikate wurden deshalb mithilfe von Microsoft Excel aus den Ergebnissen entfernt.
+Nach dem Entfernen der Duplikate blieben 4435 Ergebnisse übrig.
 
 \subsection{Protokoll Evaluierung und Limitierungen}
 Die systematische Literaturrecherche wurde mit einem Python-Script\footnote{\url{https://github.com/Lenny925/Context-Aware-Choreography-Adaptation}} automatisiert. Dazu wurden die Suchanfragen auf den verschiedenen Datenquellen ausgeführt und die Metadaten, wie Titel, Autor oder Anzahl der Zitationen heruntergeladen. Dabei waren nicht für jedes Ergebnis alle Metadaten vorhanden. Manche Ergebnisse haben zum Beispiel keine Zitationen oder keinen \textit{Digital Object Identifier} (DOI)

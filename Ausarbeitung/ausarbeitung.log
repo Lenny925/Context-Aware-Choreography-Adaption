@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  10 AUG 2019 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.8)  11 AUG 2019 10:25
 entering extended mode
 **./ausarbeitung.tex
 (ausarbeitung.tex
@@ -561,19 +561,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.015> on input line 533.
 
+Overfull \hbox (7.91078pt too wide) in paragraph at lines 536--536
+[][][][][]$\OT1/ptm/m/n/8.03 https : / / github . com / Lenny925 / Context-[]Aw
+are-[]Choreography-[]Adaptation$[]| 
+ []
+
+
 Underfull \hbox (badness 3679) in paragraph at lines 541--577
 \OT1/ptm/m/n/10.03749 wur-den Ti-tel und Zu-sam-men-fas-sung der ge-fun-de-nen
- []
-
-
-Underfull \hbox (badness 5008) in paragraph at lines 541--577
-\OT1/ptm/m/n/10.03749 zu \OT1/ptm/m/it/10.03749 kon-textabh[]angig \OT1/ptm/m/n
-/10.03749 er-wei-tert. Aus der Kom-bi-na-ti-on
- []
-
-
-Underfull \hbox (badness 5563) in paragraph at lines 541--577
-\OT1/ptm/m/n/10.03749 ent-stan-den 3 Such-bl[]ocke. Der ers-te Block ist f[]ur
  []
 
 
@@ -582,9 +577,9 @@ Underfull \hbox (badness 2142) in paragraph at lines 541--577
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 541--577
-\OT1/ptm/m/n/10.03749 Da-ten-quel-len (sie-he Ab-schnitt []2.2[]) an-ge-wen-det
-. Die
+Underfull \hbox (badness 1648) in paragraph at lines 541--577
+\OT1/ptm/m/n/10.03749 Li-te-ra-tur-re-cher-che wur-den die fol-gen-den Suchan-f
+ra-gen
  []
 
 
@@ -592,7 +587,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 541--577
 
  []
 
-[2]
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--577
+
+ []
+
+
+Underfull \vbox (badness 2134) has occurred while \output is active []
+
+ [2]
 Overfull \hbox (7.91078pt too wide) in paragraph at lines 631--631
 [][][][][]$\OT1/ptm/m/n/8.03 https : / / github . com / Lenny925 / Context-[]Aw
 are-[]Choreography-[]Adaptation$[]| 
@@ -756,8 +759,8 @@ Package rerunfilecheck Info: File `ausarbeitung.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 928.
  ) 
 Here is how much of TeX's memory you used:
- 9877 strings out of 492970
- 168623 string characters out of 3126150
+ 9878 strings out of 492970
+ 168634 string characters out of 3126150
  281742 words of memory out of 3000000
  13546 multiletter control sequences out of 15000+200000
  43611 words of font info for 78 fonts, out of 3000000 for 9000
@@ -770,9 +773,9 @@ rw/times/utmb8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmbi8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmr8a.pfb><C:/Users/Markus/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ausarbeitung.pdf (16 pages, 184477 bytes).
+Output written on ausarbeitung.pdf (16 pages, 184997 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
